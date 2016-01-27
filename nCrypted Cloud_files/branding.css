@@ -1,0 +1,162 @@
+a.logo {
+    background: url(/file/organizations/logos/1/1/white_color_yE6f7k9.png) no-repeat;
+}
+
+a.navbar-brand {
+    background: url(/file/organizations/logos/1/1/full_color_kgMTsJy.png) no-repeat !important;
+}
+
+
+.btn_brand {
+  background-color: #0072ba !important;
+  border-color: #0072ba !important;
+  color: #fff;
+}
+.btn_brand:hover {
+  color: #fff;
+  background: #0088DF !important;
+}
+.btn_brand-dark {
+  background-color: #005B94 !important;
+  /*color: #0072ba !important;*/
+}
+.btn_brand-dark:hover {
+  background: #0088DF !important;
+}
+.btn_brand-dark.dropdown-toggle {
+  background-color: #005B94 !important;
+}
+
+.btn_brand-dark.dropdown-toggle:hover {
+  background-color: #0088DF !important;
+}
+
+.header-icons-buttons__button_flat.active,
+.header-icons-buttons__button_flat:hover {
+  color: #fff;
+  background: #0088DF;
+}
+
+.customer-header_brand {
+  background-color: #0072ba !important;
+  background-image: none;
+}
+
+.account-dropdown-block_branded .account-action-link:hover {
+  border-color: #0088DF !important;
+}
+
+.modal-header-blue .modal-header {
+  background-color: #0072ba !important;
+}
+.single-share-logo_brand, .request_access_content .single-share-logo_brand {
+  background: transparent url(/file/organizations/logos/1/1/full_color_kgMTsJy.png) center no-repeat;
+  width: 200px;
+  height: 45px;
+  margin: 0 auto;
+}
+
+
+/**
+ * PDF viewer branding
+ */
+.toolbarContainer_branded {
+  background-color: #0072ba;
+}
+
+html[dir='ltr'] .splitToolbarButton.splitToolbarButton_branded {
+  background-color: #0072ba;
+}
+
+
+/**
+ * Sitewide messages branding
+ */
+
+.ncc-message_brand {
+    background-color: #0072ba;
+}
+
+.ncc-message_brand .ncc-message__close-mark:hover {
+    background-color: #0072ba;
+}
+
+.ncc-message_brand .btn {
+    color: #0072ba;
+}
+
+.ncc-message_brand .btn:hover {
+    color: #0088DF;
+}
+
+
+/**
+ * Branded navbar (as seen on standalone email-in-browser page)
+ */
+
+.color_brand {
+    color: #0072ba !important;
+}
+
+
+.navbar_brand {
+    background-color: #0072ba !important;
+    background-image: none;
+}
+
+.navbar.navigation ul.nav.navbar-nav > li {
+    border-left: 1px solid #005B94;
+}
+
+.navbar.navigation ul.nav.navbar-nav > li > a {
+    background-color: #0072ba;
+}
+
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li a:hover,
+.navbar.navigation ul.nav.navbar-nav > li > a:hover,
+.navbar.navigation ul.nav.navbar-nav > li > a:focus {
+    background: #0088DF;
+    box-shadow: none;
+}
+
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li a:hover {
+    color: #000;
+}
+
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li a:hover {
+    background-color: #0088DF;
+}
+
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn_brand {
+    background-color: #0072ba;
+}
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn_brand a {
+    background-color: #0072ba;
+}
+
+.auth-block hr {
+    border-top: 3px solid #0072ba;
+}
+
+.auth-block .btn-primary {
+    background-color: #0088DF !important;
+    border-color: #0072ba !important;
+}
+
+.auth-block .label-primary {
+    background-color: #0072ba;
+}
+
+.auth-block .label-choose:hover {
+    background-color: #0072ba;
+}
+
+.secondary-nav-block .btn-primary {
+    background-color: #0072ba;
+    border-color: #005B94;
+}
+
+.mail-header {
+    color: #0072ba;
+}
+

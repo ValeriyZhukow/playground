@@ -1,0 +1,13 @@
+/* line 1, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/jgrowl.less */
+.jGrowl-notification {
+  width: 90%;
+}
+/* line 2, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/jgrowl.less */
+.jGrowl-notification .jGrowl-notification.info {
+  background: green;
+  color: white;
+}
+/* line 9, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/jgrowl.less */
+div.jGrowl div.jGrowl-notification {
+  width: 90%;
+}

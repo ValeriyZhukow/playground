@@ -1,0 +1,215 @@
+<div class="modal-header">
+    <button ng-click="cancel()" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    <h4 class="modal-title">Edit share options for {{ itemName }}</h4>
+</div>
+
+<div class="modal-body">
+
+    <div>
+        <form class="form-horizontal form-extended" role="form" name="editOptions" novalidate>
+
+            <div class="form-group">
+                <div class="form-column">
+                    <label class="checkbox-inline"
+                           ng-class="{ 'checkbox-inline__has-error': contextErrors.hasViewError }">
+                        <input type="checkbox"
+                               id="perm-view-checkbox"
+                               ng-model="options.can_read"
+                               ng-disabled="!item.policy['can-read'].can_override && item.category == 4"
+                               value="canRead"> View
+                    </label>
+
+
+                    <label class="checkbox-inline" style="margin-left: 0; padding-left: 30px;">
+                        <input type="checkbox"
+                               id="perm-download-checkbox"
+                               ng-model="options.can_download"
+                               ng-disabled="!item.policy['can-download'].can_override && item.category == 4"
+                               value="canDownload"> Download
+                    </label>
+
+                    <label class="checkbox-inline" ng-class="">
+                        <input type="checkbox"
+                               id="perm-download-checkbox"
+                               disable-if-not-folder
+                               ng-model="options.can_create"
+                               ng-disabled="item.category == 4"
+                               value="canCreate"> Upload
+                    </label>
+
+                    <div class="ts-watermark-wrapper">
+                        <label class="checkbox-inline" ng-class="">
+                            <input type="checkbox"
+                                   id="perm-watermark-checkbox"
+                                   ng-model="options.watermark"
+                                   ng-disabled="!item.policy['watermark'].can_override && item.category == 4"> Watermark
+
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="form-column">
+                    <label class="checkbox-inline">
+                        <input type="checkbox" ng-model="options.login_required"
+                               ng-disabled="!item.policy['login-required'].can_override && item.category == 4"
+                               value="login_required"> Require
+                        Login
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group" style="height: 30px;">
+                <div class="form-column">
+                    <label class="checkbox-inline">
+                        <input type="checkbox"
+                               id="inlineCheckbox1"
+                               ng-disabled="!item.policy['pin-protected'].can_override && item.category == 4"
+                               ng-model="options.pin_protected"> Require access code
+                    </label>
+
+                    <div class="pin-input-block" ng-show="options.pin_protected">
+
+                        <div ng-hide="newPinShouldBeShown" style="position:relative;top: 5px;">
+                            <a href="" ng-click="generateNewPin()">Generate new</a>
+
+                            <div class="ts-form-help-trigger"  tooltip="We don't store your access code, so please enter a new one.">
+                                <span class="ts-form-mark disabled">?</span>
+                            </div>
+                        </div>
+
+                        <div class="password-toggle" ng-show="newPinShouldBeShown" style="margin-top: 2px;">
+                            <input ng-if="!showpassword" class="password-toggle-mngt__field password-toggle-mngt__pass-field"
+                                   type="password" placeholder="Enter access code" ng-model="options.new_access_code">
+
+                            <input  ng-if="showpassword" class="password-toggle-mngt__field password-toggle-mngt__pass-field"
+                                   type="text" placeholder="Enter access code" ng-model="options.new_access_code">
+
+                            <button class="password-toggle-mngt__button ng-binding password-toggle-mngt__active  ts_mngnt_pin"
+                                    ng-click="showpassword = !showpassword;">
+                                    <span ng-if="!showpassword">Show code</span>
+                                    <span ng-if="showpassword">Hide code</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <label class="checkbox-inline ts_email_code" ng-show="options.pin_protected && newPinShouldBeShown">
+                        <input type="checkbox" id="inlineCheckbox1" ng-model="options.new_send_to_email" ng-init="new_send_to_email = true" class="ng-pristine ng-valid"> Email Code
+                    </label>
+
+                </div>
+            </div>
+
+            <div class="form-group" style="height: 35px;">
+                <div class="form-column">
+                    <div class="expiration-main-input"
+                         style="display: inline-block;">
+                        <label class="checkbox-inline">
+                            <input type="checkbox"
+                                   id="inlineCheckbox111"
+                                   ng-disabled="!item.policy['require_terms_of_use'].can_override"
+                                   ng-model="options.require_terms_of_use"> Display Terms of Use
+                        </label>
+                    </div>
+
+                    <div class="predefined-time-selects pilled-radios"
+                         style="margin-left: 20px;"
+                         ng-show="options.require_terms_of_use">
+                        <input type="radio"
+                               name="termsOfUse"
+                               id="tmpoptionsRadios111"
+                               value="true"
+                               ng-value="true"
+                               option-disable-if="!options.show_terms_once.canOverride"
+                               ng-model="options.show_terms_once">
+                        <label for="tmpoptionsRadios111" class="radio-inline">Only once</label>
+
+                        <input type="radio"
+                               name="termsOfUse"
+                               id="tmpoptionsRadios222"
+                               value="false"
+                               ng-value="false"
+                               option-disable-if="!options.show_terms_once.canOverride"
+                               ng-model="options.show_terms_once">
+                        <label for="tmpoptionsRadios222" class="radio-inline">Every time</label>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div>
+                <div class="radio" style="display: inline-block; margin-right: 15px">
+                    <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="expiration" ng-model="expiration.mode">
+                        Expiration
+                    </label>
+                </div>
+
+                <div ng-show="expiration.mode === 'expiration'" style="display: inline-block; vertical-align: top; margin: 0px 30px 0 0px;">
+                    <div class="" ng-class="{'has-error': expiration.errors.biggerThanMax}" style="display:inline-block;">
+                        <div class='input-group date'
+                             id='datetimepicker2'
+                             ui-datetimepicker
+                             datetimepicker-init-date="expiration.initDate"
+                             ng-model="temp"
+                             from-date="now"
+                             validation-errors="expiration.errors"
+                             max-expiration="item.policy['max-expiration'].value"
+                             binddata="expiration.value">
+                            <input type='text' class="form-control" />
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="text-danger" ng-show="expiration.errors.invalidDate">Invalid date</p>
+                        <p class="text-danger" style="position: absolute; font-size: 12px; width: 290px;"
+                           ng-show="expiration.errors.biggerThanMax">Per corporate policy, you can't set an expiration date for
+                            more than <strong>{{ expiration.errors.biggerThanMaxLabel }}</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="radio" style="display: inline-block;">
+                    <label ng-if="noExpirationDisabled"
+                           class="form-label-disabled"
+                           tooltip="Per corporate policy this option is not available">
+                        <input type="radio"
+                               name="optionsRadios"
+                               id="noExpirationOptionDisabled"
+                               ng-disabled="true"
+                               value="noExpiration"
+                               ng-model="expiration.mode">
+                        No Expiration
+                    </label>
+
+                    <label ng-if="!noExpirationDisabled">
+                        <input type="radio"
+                               name="optionsRadios"
+                               id="noExpirationOption"
+                               value="noExpiration"
+                               ng-model="expiration.mode">
+                        No Expiration
+                    </label>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+    <div class="text-center text-danger" ng-show="item.was_forced">Your share options have been updated to adhere to corporate policies</div>
+
+<div class="modal-footer">
+    <button class="btn btn-default edit-item-cancel-btn" ng-click="cancel()"
+            style="background-color: #EBEBEB; border: 0;">Cancel</button>
+    <button class="btn btn-primary btn_brand edit-item-save-btn"
+            ng-disabled="expiration.errors.biggerThanMax || expiration.errors.invalidDate"
+            ng-click="saveShareOptions()" style="background-color: #0060AC;border: 0;">Save</button>
+</div>

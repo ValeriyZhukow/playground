@@ -1,0 +1,18 @@
+<div class="modal-header">
+    <button ng-click="cancel()" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    <h4 class="modal-title">Send request reminder</h4>
+</div>
+
+<div class="modal-body">
+    <div class="">
+        <p>Do you want to send a request reminder for these shares?</p>
+    </div>
+</div>
+
+
+<div class="modal-footer">
+    <button class="btn btn-default request-reminder-modal-cancel-btn"
+            ng-click="cancel()" style="background-color: #EBEBEB; border: 0;">Cancel</button>
+    <button class="btn btn-primary btn_brand request-reminder-modal-send-btn"
+            ng-click="sendRequestReminder()" style="background-color: #0060AC;border: 0;">Send</button>
+</div>

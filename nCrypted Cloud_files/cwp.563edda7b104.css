@@ -1,0 +1,2257 @@
+/* line 1, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/labels.less */
+.label-black {
+  background-color: #555555;
+}
+/* line 15, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn {
+  font-size: 14px;
+}
+/* line 16, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn i {
+  font-size: 16px;
+}
+/* line 20, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn:focus {
+  outline: none;
+}
+/* line 25, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn.btn-black {
+  color: #ffffff;
+  background-color: #474949;
+  border-color: #474949;
+  border-radius: 6px;
+  padding: 5px 20px;
+}
+/* line 33, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn.btn-black:hover,
+.btn.btn-black:focus,
+.btn.btn-black:active,
+.btn.btn-black.active {
+  background-color: #3a3c3c;
+  border-color: #2e2f2f;
+}
+/* line 38, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn.btn-blue {
+  border: 1px solid #00416a;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  padding: 12px 19px 12px 19px;
+  text-decoration: none;
+  display: inline-block;
+  text-shadow: 0px -1px 0 rgba(0, 64, 105, 0.4);
+  color: #FFFFFF;
+  background-color: #007DCC;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#007DCC), to(#0066a6));
+  background-image: -webkit-linear-gradient(top, #007DCC, #0066a6);
+  background-image: -moz-linear-gradient(top, #007DCC, #0066a6);
+  background-image: -ms-linear-gradient(top, #007DCC, #0066a6);
+  background-image: -o-linear-gradient(top, #007DCC, #0066a6);
+  background-image: linear-gradient(to bottom, #007DCC, #0066a6);
+}
+/* line 57, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn.btn-blue:hover {
+  border: 1px solid #00253c;
+  background-color: #0063A2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0063A2), to(#0070B7));
+  background-image: -webkit-linear-gradient(top, #0063A2, #0070B7);
+  background-image: -moz-linear-gradient(top, #0063A2, #0070B7);
+  background-image: -ms-linear-gradient(top, #0063A2, #0070B7);
+  background-image: -o-linear-gradient(top, #0063A2, #0070B7);
+  background-image: linear-gradient(to bottom, #0063A2, #0070B7);
+}
+/* line 78, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn.btn-dark-blue {
+  vertical-align: middle;
+  border-color: #024d7c;
+  box-shadow: inset 0 0 2px 1px #0484d4;
+  color: #ffffff;
+  border-radius: 6px;
+  background: -moz-linear-gradient(top, #007bc8 20%, #006cba 100%);
+  /* FF3.6+ */
+  background: -webkit-linear-gradient(top, #007bc8 20%, #006cba 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #007bc8 20%, #006cba 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #007bc8 20%, #006cba 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #007bc8 20%, #006cba 100%);
+  /* W3C */
+}
+/* line 89, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn.btn-dark-blue:hover {
+  border-color: #025082;
+  background-color: #006cba;
+  background: -moz-linear-gradient(top, #0071c3 20%, #007bc8 100%);
+  /* FF3.6+ */
+  background: -webkit-linear-gradient(top, #0071c3 20%, #007bc8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #0071c3 20%, #007bc8 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #0071c3 20%, #007bc8 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #0071c3 20%, #007bc8 100%);
+  /* W3C */
+}
+/* line 103, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn.btn-dark-blue_flat {
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  color: #ffffff !important;
+  background-image: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+}
+/* line 114, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-group_rect {
+  height: 48px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+/* line 119, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-group_rect .dropdown-toggle {
+  height: 100%;
+}
+/* line 124, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn_rect {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  line-height: 48px;
+}
+/* line 131, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn_brand-dark {
+  background-color: #0062a1;
+}
+/* line 133, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn_brand-dark:hover {
+  background: #0082d3 !important;
+}
+/* line 137, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn_brand-dark.dropdown-toggle {
+  background-color: #0062a1 !important;
+}
+/* line 141, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn_brand-dark.dropdown-toggle:hover {
+  background-color: #0082d3 !important;
+}
+/* line 146, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn_brand {
+  background-color: #0072BA;
+}
+/* line 148, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn_brand:hover {
+  background: #0082d3 !important;
+}
+/* line 194, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-circle {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 0;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 50%;
+}
+/* line 203, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-circle i {
+  font-size: 10px;
+}
+/* line 207, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-circle .fa-play {
+  position: relative;
+  left: 1px;
+}
+/* line 212, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-circle .fa-close {
+  font-size: 13px;
+}
+/* line 216, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-circle .fa-check {
+  font-size: 12px;
+}
+/* line 220, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-circle .fa-envelope {
+  top: -1px;
+  position: relative;
+}
+/* line 227, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.circle-btn-group__wrapper {
+  display: inline-block;
+}
+/* line 232, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/buttons.less */
+.btn-secondary {
+  background-color: #ccc;
+  color: #fff;
+}
+/* line 1, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/helpers.less */
+.text-uppercase {
+  text-transform: uppercase;
+}
+/* line 5, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/helpers.less */
+.ncc-loader {
+  background-image: url('../../img/loader.gif');
+  height: 80px;
+  width: 80px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 1, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/ncc_branding.less */
+.ncc-logo {
+  width: 215px;
+  max-width: 215px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background: url("/static/ncryptedcloud/img/logo.png") no-repeat;
+}
+/* line 10, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/ncc_branding.less */
+.ncc-logo.white {
+  width: 176px;
+  height: 30px;
+}
+/* line 15, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/ncc_branding.less */
+.ncc-logo.white.large {
+  background: url("/static/ncryptedcloud/img/logo_white_big.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  width: 210px;
+  height: 40px;
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+}
+/* line 7, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header {
+  display: block;
+  margin-bottom: 20px;
+  /* Colors, shadows & borders */
+  background-image: -moz-linear-gradient(top, #0080D2 0%, #0072BA 100%);
+  background-image: -o-linear-gradient(top, #0080D2 0%, #0072BA 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0080D2), color-stop(1, #0072BA));
+  background-image: -webkit-linear-gradient(top, #0080D2 0%, #0072BA 100%);
+  background-image: linear-gradient(to bottom, #0080D2 0%, #0072BA 100%);
+  background-color: #0072BA;
+  border-bottom: 1px solid #006699;
+  -webkit-box-shadow: 0px 2px 2px #cccccc;
+  -moz-box-shadow: 0px 2px 2px #cccccc;
+  box-shadow: 0px 2px 2px #cccccc;
+}
+/* line 22, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content {
+  position: relative;
+}
+/* line 24, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .block {
+  /* Mixin for each block here */
+  display: inline-block;
+}
+/* line 27, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .block i {
+  opacity: 1;
+}
+/* line 29, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .block i.icon-tasks,
+.customer-header .content .block i.icon-signal {
+  font-size: 21px;
+}
+/* line 34, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .block .notification-badge {
+  position: relative;
+  right: 15px;
+  top: -11px;
+  background-color: #D9534F;
+}
+/* line 42, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-block {
+  height: 48px;
+  /* Mixin for each block here */
+  display: inline-block;
+  padding: 0;
+}
+/* line 27, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-block i {
+  opacity: 1;
+}
+/* line 29, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-block i.icon-tasks,
+.customer-header .content .logo-block i.icon-signal {
+  font-size: 21px;
+}
+/* line 34, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-block .notification-badge {
+  position: relative;
+  right: 15px;
+  top: -11px;
+  background-color: #D9534F;
+}
+/* line 46, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-block .logo {
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 50% 46%;
+  width: 200px;
+  height: 100%;
+}
+/* line 53, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-block .notifications {
+  padding: 3px 10px;
+  margin-left: 16px;
+  display: inline-block;
+  text-shadow: none;
+}
+/* line 60, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block {
+  height: 48px;
+  /* Mixin for each block here */
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+}
+/* line 27, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block i {
+  opacity: 1;
+}
+/* line 29, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block i.icon-tasks,
+.customer-header .content .logo-unauth-block i.icon-signal {
+  font-size: 21px;
+}
+/* line 34, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .notification-badge {
+  position: relative;
+  right: 15px;
+  top: -11px;
+  background-color: #D9534F;
+}
+/* line 46, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .logo {
+  display: inline-block;
+  vertical-align: middle;
+  background-position: 50% 46%;
+  width: 200px;
+  height: 100%;
+}
+/* line 53, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .notifications {
+  padding: 3px 10px;
+  margin-left: 16px;
+  display: inline-block;
+  text-shadow: none;
+}
+/* line 63, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .support {
+  float: right;
+  font-weight: 200;
+}
+/* line 66, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .support .icon-question-sign {
+  text-shadow: none;
+}
+/* line 68, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .support .icon-question-sign .block {
+  /* Mixin for each block here */
+  display: inline-block;
+}
+/* line 71, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .support .icon-question-sign .block i {
+  opacity: 1;
+  text-shadow: 1px 1px 1px #001d30;
+}
+/* line 74, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .support .icon-question-sign .block i.icon-tasks,
+.customer-header .content .logo-unauth-block .support .icon-question-sign .block i.icon-signal {
+  font-size: 21px;
+}
+/* line 79, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .logo-unauth-block .support .icon-question-sign .block .notification-badge {
+  position: relative;
+  right: 15px;
+  top: -11px;
+  background-color: #e90724;
+}
+/* line 90, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .nav-block {
+  /* Mixin for each block here */
+  display: inline-block;
+}
+/* line 27, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .nav-block i {
+  opacity: 1;
+}
+/* line 29, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .nav-block i.icon-tasks,
+.customer-header .content .nav-block i.icon-signal {
+  font-size: 21px;
+}
+/* line 34, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .nav-block .notification-badge {
+  position: relative;
+  right: 15px;
+  top: -11px;
+  background-color: #D9534F;
+}
+/* line 92, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .nav-block nav {
+  position: relative;
+}
+/* line 96, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block {
+  /* Mixin for each block here */
+  display: inline-block;
+  display: block;
+}
+/* line 27, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block i {
+  opacity: 1;
+}
+/* line 29, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block i.icon-tasks,
+.customer-header .content .user-block i.icon-signal {
+  font-size: 21px;
+}
+/* line 34, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block .notification-badge {
+  position: relative;
+  right: 15px;
+  top: -11px;
+  background-color: #D9534F;
+}
+/* line 99, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block .btn-group {
+  padding: 5.5px 0;
+}
+/* line 101, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block .btn-group .btn {
+  font-weight: 200;
+  text-shadow: none;
+}
+/* line 103, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block .btn-group .btn .icon-user {
+  padding: 0 5px 0 4px;
+}
+/* line 108, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block .btn-group .dropdown-toggle {
+  background: transparent;
+}
+/* line 111, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header .content .user-block .btn-group .dropdown-menu {
+  right: 0;
+  left: auto;
+  float: right;
+  text-shadow: none;
+}
+@media print {
+  /* line 123, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .customer-header {
+    display: none;
+  }
+}
+/* line 130, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header-dropdown {
+  position: relative;
+  z-index: 4;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+/* line 136, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header-dropdown .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+/* line 142, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header-dropdown .user-block .btn {
+  padding: 6px 12px;
+}
+/* line 149, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.legacy-bootstrap .open.account-actions-dropdown {
+  font-size: 14px;
+}
+/* line 157, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.temp-header-fix .open.account-actions-dropdown {
+  font-size: 14px;
+  right: 58px;
+}
+/* line 164, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.customer-header_flat {
+  box-shadow: none !important;
+  background-image: none !important;
+  border-bottom: 0 !important;
+}
+@media (max-width: 992px) {
+  /* line 174, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .header-help-block {
+    display: none !important;
+  }
+  /* line 181, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .customer-header .nav-block nav {
+    margin-left: 27px!important;
+  }
+}
+@media (max-width: 745px) {
+  /* line 194, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .logo {
+    width: 22px !important;
+    background-position: left center !important;
+  }
+  /* line 204, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .customer-header .notifications {
+    display: none !important;
+  }
+}
+@media (max-width: 600px) {
+  /* line 218, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .customer-header .nav-block {
+    margin-left: 0!important;
+    text-align: center;
+    display: none !important;
+  }
+  /* line 224, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .customer-header .nav-block nav {
+    display: inline-block;
+    margin-left: 0;
+  }
+  /* line 232, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .controls-block {
+    display: none !important;
+  }
+  /* line 237, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .logo-block .notifications {
+    display: none !important;
+  }
+  /* line 242, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .breadcrumbs-block {
+    display: none !important;
+  }
+  /* line 246, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .table > thead > tr > th {
+    border-bottom: 0;
+  }
+  /* line 250, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .table > tbody > tr:first-child > td {
+    border-top: 0!important;
+  }
+}
+@media (max-width: 655px) {
+  /* line 261, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .logo-block .logo {
+    width: 22px !important;
+  }
+  /* line 266, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .security-code-block {
+    margin-bottom: 22px!important;
+  }
+  /* line 272, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .advanced-option-button .glyphicon {
+    font-size: 20px!important;
+    top: -3px !important;
+  }
+  /* line 279, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .advanced-option-button-text {
+    display: none!important;
+  }
+  /* line 283, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .ts-inline-select-wrapper {
+    margin-left: 0!important;
+    margin-top: 10px !important;
+  }
+  /* line 288, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .expiration-main-input {
+    width: 100%!important;
+  }
+  /* line 293, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .search-block {
+    display: none!important;
+  }
+  /* line 297, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .predefined-time-selects {
+    margin-left: -5px !important;
+    margin-top: 10px!important;
+  }
+  /* line 302, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .pin-input {
+    width: 100%!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px !important;
+    margin-left: 0!important;
+  }
+  /* line 309, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .security-code-controls {
+    height: auto!important;
+  }
+  /* line 313, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .account-button-block {
+    width: 100%;
+  }
+  /* line 315, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .account-button-block .btn-group {
+    width: 100%;
+  }
+  /* line 318, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .account-button-block .btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  /* line 325, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .controls-block {
+    display: none !important;
+  }
+  /* line 329, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .breadcrumbs-block {
+    display: none !important;
+  }
+  /* line 333, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .mobile-ts-share {
+    display: block !important;
+  }
+  /* line 337, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .trusted-share-modal .modal-dialog {
+    width: 100%!important;
+  }
+  /* line 341, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .caret {
+    border-top: 7px solid #000!important;
+    border-right: 7px solid rgba(0, 0, 0, 0) !important;
+    border-bottom: 0 dotted!important;
+    border-left: 7px solid rgba(0, 0, 0, 0) !important;
+    right: 10px!important;
+    position: absolute!important;
+    margin-top: 0.45em!important;
+  }
+  /* line 352, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+  .account-button-block .dropdown-menu {
+    width: 100%;
+  }
+}
+/* line 359, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.mobile-ts-share {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 0;
+  top: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  display: none;
+  color: #4490C0;
+}
+/* line 371, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.ipad-ts-share {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 30px;
+  top: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #4490C0;
+}
+/* line 382, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.light-header {
+  margin-top: 30px;
+  background-color: transparent;
+}
+/* line 387, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.light-header .logo-img {
+  width: 130px;
+}
+/* line 391, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.light-header .separator {
+  display: inline-block;
+  border-left: 2px solid #eeeeee;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* line 398, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.light-header .btn {
+  color: black;
+  background-color: #eeeeee;
+  line-height: 26px;
+}
+/* line 408, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.logo-unauth__logo img {
+  width: 130px;
+  height: 26px;
+}
+/* line 415, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.two-part-logo {
+  display: inline-block;
+}
+/* line 418, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.two-part-logo__logo,
+.two-part-logo__sublogo {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 422, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.two-part-logo__logo img,
+.two-part-logo__sublogo img {
+  width: 130px;
+}
+/* line 427, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.two-part-logo__sublogo {
+  white-space: nowrap;
+  font-size: 12px;
+}
+/* line 431, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.two-part-logo__sublogo img {
+  width: auto;
+  height: 22px;
+}
+/* line 436, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/customer_header.less */
+.two-part-logo__sublogo:before {
+  content: "";
+  border-left: 1px solid #c0c0c0;
+  margin: 0 12px 0 18px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+/* line 2, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .panel-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), to(#EEEEEE));
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 8, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .panel-body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), to(#EEEEEE));
+  padding: 0;
+}
+/* line 13, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs:before,
+.tabbable .tabs:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 19, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs {
+  float: left;
+  padding-top: 4px;
+  margin-right: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+/* line 25, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs > li {
+  border-radius: 0;
+  float: none;
+}
+/* line 28, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs > li > a {
+  color: #555555;
+  font-weight: bold;
+  margin-right: -1px;
+  border-radius: 0;
+  border: 1px solid transparent;
+  margin-bottom: 2px;
+}
+/* line 35, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs > li > a:hover,
+.tabbable .tabs.tabs-left .nav-tabs > li > a:focus {
+  border-right-color: #ddd;
+}
+/* line 38, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs > li > a i {
+  font-size: 20px;
+  padding-right: 2px;
+}
+/* line 43, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs > li.active {
+  border-left: 4px solid #157ab5;
+}
+/* line 45, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs > li.active > a {
+  padding-left: 11px;
+  border-bottom-color: #ddd;
+  border-top-color: #ddd;
+}
+/* line 49, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs.tabs-left .nav-tabs > li.active > a:hover,
+.tabbable .tabs.tabs-left .nav-tabs > li.active > a:focus {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+/* line 59, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs .tab-content {
+  overflow: auto;
+  background-color: #ffffff;
+  border-left: 1px solid #ddd;
+  padding: 0 25px 25px;
+  min-height: 500px;
+}
+/* line 66, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .tabs .tab-content h1 {
+  font-size: 24px;
+  margin-top: 25px;
+}
+/* line 73, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable .promo-text {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 25px;
+}
+/* line 80, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_tabbable.less */
+.tabbable > header {
+  padding: 12px 24px;
+  background: #ffffff;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #ffffff 0%, rgba(229, 229, 229, 0.66) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, rgba(229, 229, 229, 0.66) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, rgba(229, 229, 229, 0.66) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, rgba(229, 229, 229, 0.66) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, rgba(229, 229, 229, 0.66) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
+  /* IE6-8 */
+  border: 1px solid #d8d8d8;
+  border-radius: 6px 6px 0 0;
+  font-weight: 700;
+}
+/* line 6, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.default-navbar {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+/* line 17, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navigation-hover {
+  box-shadow: inset 1px 1px 100px #023A63;
+  background: transparent;
+  color: white;
+}
+/* line 24, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  background: url("/static/ncryptedcloud/img/menu_background.png") repeat-x #0072b9;
+  min-height: 48px;
+}
+/* line 28, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation .phone-number {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 31, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation .phone-number:hover {
+  text-decoration: none;
+}
+/* line 35, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav {
+  color: #fff;
+}
+/* line 37, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li {
+  border-left: 1px solid #004e8d;
+  position: relative;
+}
+/* line 38, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  border-left: 1px solid #2b8cdc;
+}
+/* line 43, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li.active > a,
+.navbar.navigation ul.nav.navbar-nav > li.open > a {
+  box-shadow: inset 1px 1px 100px #023A63;
+  background: transparent;
+  color: white;
+}
+/* line 46, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li > a {
+  padding: 13.5px 35px;
+  color: white;
+}
+/* line 49, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li > a:hover,
+.navbar.navigation ul.nav.navbar-nav > li > a:focus {
+  box-shadow: inset 1px 1px 100px #023A63;
+  background: transparent;
+  color: white;
+}
+/* line 53, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li > p {
+  margin: 13.5px 0;
+  padding-left: 30px;
+  text-transform: capitalize;
+}
+/* line 57, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li > p img {
+  vertical-align: top;
+  padding-right: 12px;
+}
+/* line 63, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* line 68, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu {
+  padding: 0;
+  border-top: 0;
+  border-radius: 0 0 6px 6px;
+  margin: 1px 0 0 -1px;
+}
+/* line 73, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li {
+  text-transform: capitalize;
+}
+/* line 75, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li a {
+  padding: 10px 25px;
+  font-size: 15px;
+  background-color: white;
+  text-shadow: none;
+  color: #3d3d3d;
+}
+/* line 82, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.active > a,
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li a:hover,
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li a:focus {
+  box-shadow: inset 1px 1px 100px #023A63;
+  background: transparent;
+  color: white;
+  background: #eff6fa;
+  box-shadow: none;
+  color: #0065a3;
+}
+/* line 89, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li:last-child a {
+  border-radius: 0 0 4px 4px;
+}
+/* line 94, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn {
+  background-color: #0067a8;
+  border-radius: 0 0 5px 5px;
+}
+/* line 97, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn a {
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  background-color: #0067a8;
+}
+/* line 101, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn a i {
+  font-size: 25px;
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+}
+/* line 108, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn a:hover,
+.navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn a:focus {
+  color: white;
+}
+/* line 118, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.sub-navigation {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #cacaca;
+  z-index: 900;
+}
+/* line 122, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.sub-navigation ul {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+/* line 126, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.sub-navigation ul li {
+  display: inline-block;
+  float: none;
+}
+/* line 129, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.sub-navigation ul li > a {
+  display: inline-block;
+  margin: 18px 35px;
+  padding: 0;
+  background-color: transparent;
+}
+/* line 134, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.sub-navigation ul li > a .label-menu {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 13px;
+  color: #4d4d4d;
+  padding: 7px 10px;
+}
+/* line 143, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.sub-navigation ul li.active > a .label-menu,
+.navbar.sub-navigation ul li a:hover .label-menu,
+.navbar.sub-navigation ul li a:focus .label-menu {
+  background-color: #555555;
+  color: white;
+}
+/* line 155, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar_flat {
+  box-shadow: none !important;
+  background-image: none !important;
+  border-bottom: 0 !important;
+}
+/* line 160, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar_flat a {
+  padding: 13.5px 35px;
+}
+/* line 162, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar_flat a:hover,
+.navbar_flat a:focus {
+  box-shadow: none;
+  background-color: #0082d3;
+}
+/* line 170, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar-text a {
+  padding: 0;
+}
+/* line 172, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar-text a:hover {
+  background: none;
+}
+/* line 178, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav > li:before {
+  border-left: 1px solid #015498;
+}
+/* line 183, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.navbar.navigation ul.nav.navbar-nav_flat > li > a:hover {
+  box-shadow: none;
+  background-color: #0082d3;
+}
+/* line 192, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.current-page {
+  background-color: #3f3f3f;
+}
+/* line 194, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.current-page h2 {
+  font-size: 28px;
+  color: white;
+  margin: 24px 0;
+}
+/* Mobile part */
+/* line 205, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+.mobile-icons-block,
+mobile-divider,
+.mobile-breaks,
+.mobile-display,
+.mobile_container {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  /* line 210, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .header-bar,
+  .not-mobile-breaks,
+  .mobile-hide {
+    display: none;
+  }
+  /* line 214, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .mobile-breaks,
+  .mobile-display {
+    display: block;
+  }
+  /* line 218, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-header {
+    margin-top: -5px;
+    background: url("/static/ncryptedcloud/img/menu_background.png") repeat-x scroll 0 0 #fff;
+    padding-bottom: 7px;
+    background-size: 100% 60px;
+    height: 60px;
+  }
+  /* line 224, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-header button {
+    margin-top: 15px;
+    margin-left: 13px;
+    padding: 3px 3px;
+    float: left;
+  }
+  /* line 230, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-header .mobile-login-button {
+    float: right;
+    padding: 15px 15px 8px 13px;
+  }
+  /* line 233, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-header .mobile-login-button .icon-user {
+    color: white;
+    font-size: 33px;
+    top: -2px;
+    left: -2px;
+    text-shadow: 2px 2px 2px rgba(50, 50, 50, 0.85);
+    text-decoration: none;
+  }
+  /* line 242, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-header .toggle-line {
+    width: 28px;
+    height: 5px;
+    background: #ffffff;
+    margin-bottom: 4px;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 1px 2px 3px rgba(50, 50, 50, 0.75);
+  }
+  /* line 254, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .mobile-brand {
+    position: absolute;
+    left: 61px;
+    top: 5px;
+    right: 61px;
+    bottom: 0px;
+    background: url("/static/ncryptedcloud/img/logo_white_big.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    width: 210px;
+    height: 40px;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+    background-position: center center;
+    background-size: 200px;
+    width: inherit;
+  }
+  /* line 266, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .mobile-divider {
+    border-left: 1px solid #004e8d;
+    border-right: 1px solid #2b8cdc;
+    height: 54px;
+    width: 2px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    display: block;
+  }
+  /* line 278, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .mobile-divider-right {
+    border-left: 1px solid #004e8d;
+    border-right: 1px solid #2b8cdc;
+    height: 54px;
+    width: 2px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    display: block;
+    left: auto;
+    right: 60px;
+  }
+  /* line 284, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-collapse {
+    max-height: none;
+  }
+  /* line 286, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-collapse ul.nav {
+    margin: 0 -15px;
+  }
+  /* line 290, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-collapse ul.nav li a {
+    text-shadow: none;
+    padding: 8px 14px;
+  }
+  /* line 294, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-collapse ul.nav li > ul.dropdown-menu {
+    border-radius: 0;
+    float: none;
+    position: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-clip: none;
+  }
+  /* line 301, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-collapse ul.nav li > ul.dropdown-menu a {
+    padding: 8px;
+  }
+  /* line 304, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar-collapse ul.nav li > ul.dropdown-menu li:last-child a {
+    border-radius: 0;
+  }
+  /* line 311, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu {
+    border-radius: 0;
+  }
+  /* line 312, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar.navigation ul.nav.navbar-nav > li ul.dropdown-menu li.extra-btn {
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* line 320, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .navbar.navigation ul.nav.navbar-nav > li > a {
+    text-shadow: 1px -1px 2px #001d30;
+    padding: 13.5px 14px;
+    color: white;
+  }
+}
+@media screen and (max-width: 1199px) {
+  /* line 329, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .landing .container div.col-lg-8 {
+    width: 66%;
+    float: right;
+  }
+  /* line 333, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .landing .container div.col-lg-4 {
+    width: 30%;
+    float: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 341, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/navigation.less */
+  .mobile-login-button {
+    display: none;
+  }
+}
+/* line 2, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/social.less */
+.social li {
+  display: inline-block;
+}
+/* line 5, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/social.less */
+.social a {
+  text-decoration: none;
+  opacity: 0.6;
+}
+/* line 8, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/social.less */
+.social a i {
+  font-size: 34px;
+  color: white;
+}
+/* line 12, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/utils/social.less */
+.social a:hover,
+.social a:focus,
+.social a:active {
+  opacity: 1.0;
+}
+/* line 3, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer {
+  color: #9a9a9a;
+  background: #343434;
+}
+/* line 6, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-size: 14px;
+}
+/* line 13, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer h4 {
+  margin: 0 0 18px;
+}
+/* line 17, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .social .text {
+  display: none;
+}
+/* line 22, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .footer-data .row:first-child {
+  padding: 35px 32px 32px 32px;
+  background: #343434 url("/static/ncryptedcloud/img/biglockicon.png") no-repeat 97% 42px;
+}
+/* line 26, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .footer-data a,
+.footer .footer-data a:hover,
+.footer .footer-data a:focus {
+  color: #9a9a9a;
+}
+/* line 30, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .copyright {
+  padding-bottom: 25px;
+  font-size: 13px;
+}
+/* line 34, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access {
+  background-color: #f0f0ed;
+  padding: 37px 64px;
+  color: #333333;
+}
+/* line 38, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .phone_div {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #0065A3;
+}
+/* line 42, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .phone_div img {
+  margin-right: 10px;
+  padding-right: 7px;
+}
+/* line 47, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .left-panel {
+  border-radius: 10px 0 0 10px;
+  border-right: 2px solid #f0f0ed;
+}
+/* line 50, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .left-panel a.btn {
+  padding: 2px 22px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/* line 56, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .left-panel .panel-header {
+  background: url("/static/ncryptedcloud/img/phonecircle.png") no-repeat left;
+  padding: 11.5px 0 11.5px 30px;
+  margin-left: 20px;
+}
+/* line 62, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .left-panel,
+.footer .quick-access .center-panel,
+.footer .quick-access .right-panel {
+  height: 215px;
+  margin: auto 0;
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 16px 22px 19px;
+}
+/* line 70, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .row {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 75, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access p {
+  padding: 0 19px;
+  margin-bottom: 21px;
+}
+/* line 79, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .center-panel {
+  padding-top: 30px;
+  width: 40%;
+}
+/* line 82, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .center-panel a.btn {
+  padding: 8px 40px;
+}
+/* line 84, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .center-panel a.btn.btn-blue {
+  padding: 8px 34px;
+}
+/* line 89, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .right-panel {
+  border-radius: 0 10px 10px 0;
+  border-left: 2px solid #f0f0ed;
+}
+/* line 92, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .right-panel a.btn {
+  padding: 2px 13px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/* line 99, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .btn-toolbar {
+  margin-bottom: 25px;
+}
+/* line 102, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer .quick-access .panel-header {
+  margin-bottom: 20px;
+  color: #2370a8;
+  font-size: 19px;
+}
+/* Mobile part */
+@media screen and (max-width: 400px) {
+  /* line 116, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-data .mobile-display.social-links {
+    display: none;
+  }
+  /* line 119, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-data .mobile-hide {
+    display: block;
+  }
+}
+@media screen and (max-width: 1232px) {
+  /* line 128, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row .left-panel,
+  .quick-access .container .row .center-panel,
+  .quick-access .container .row .right-panel {
+    height: 250px;
+  }
+  /* line 131, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row .center-panel {
+    padding-top: 5px;
+  }
+  /* line 132, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row .center-panel .btn {
+    margin-top: 5px;
+  }
+  /* line 138, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row .left-panel .btn {
+    height: auto;
+  }
+  /* line 141, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row .left-panel .panel-header {
+    background: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 150, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .social-links {
+    float: right;
+  }
+  /* line 154, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-resources {
+    width: 160px;
+    display: inline-block;
+  }
+  /* line 159, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .center-panel a.btn {
+    padding: 2px 10px;
+  }
+  /* line 163, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-data .row {
+    background-position: 80% 10%;
+  }
+  /* line 167, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display {
+    padding: 10px 10px;
+  }
+  /* line 170, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display .container .row div.text-center {
+    height: auto;
+  }
+  /* line 174, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display .container .row .center-panel .btn {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 2px 13px;
+  }
+  /* line 182, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display .container .row .left-panel .btn {
+    height: 40px;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-top: 7px;
+    width: 130px;
+    margin-top: 5px;
+  }
+  /* line 190, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display .container .row .left-panel .btn-default {
+    padding-left: 6px;
+  }
+  /* line 192, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display .container .row .left-panel .btn-default i {
+    padding-right: 3px;
+  }
+  /* line 196, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display .container .row .left-panel .panel-header {
+    padding-left: 0px;
+  }
+  /* line 198, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access.mobile-display .container .row .left-panel .panel-header img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  /* line 208, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access {
+    padding: 37px 14px;
+  }
+  /* line 211, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row div.text-center {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  /* line 217, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row div.left-panel {
+    border-radius: 10px 10px 0 0;
+  }
+  /* line 220, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row .center-panel {
+    padding-top: 20px;
+  }
+  /* line 223, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .quick-access .container .row div.right-panel {
+    border-radius: 0 0 10px 10px;
+  }
+  /* line 230, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-data ul {
+    margin-bottom: 25px;
+  }
+  /* line 232, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-data ul li {
+    margin-top: 0px;
+  }
+  /* line 234, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-data ul li a {
+    font-size: 19px;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-weight: 20%;
+  }
+  /* line 240, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-data ul h4 {
+    font-size: 25px;
+    font-weight: normal;
+  }
+  /* line 246, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .mobile img {
+    width: 95%;
+  }
+  /* line 250, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .mobile {
+    padding: 10px 20px;
+  }
+  /* line 255, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .row .left-panel,
+  .row .center-panel,
+  .row .right-panel {
+    width: 100%;
+    border-radius: none;
+    height: auto;
+    border: none;
+  }
+  /* line 260, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .row .left-panel p,
+  .row .center-panel p,
+  .row .right-panel p {
+    font-size: 19px;
+  }
+  /* line 263, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .row .left-panel .panel-header,
+  .row .center-panel .panel-header,
+  .row .right-panel .panel-header {
+    font-size: 24px;
+  }
+  /* line 269, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .features {
+    padding-bottom: 0px;
+  }
+  /* line 270, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .features .col-lg-4 {
+    width: 100%;
+    padding-left: 20%;
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+  /* line 275, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .features .col-lg-4 p {
+    font-size: 18px;
+  }
+}
+/* line 285, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer-row {
+  margin-top: 20px;
+}
+/* line 287, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer-row a {
+  color: #ccc;
+}
+/* line 292, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer-bg {
+  background: #343434 url('/static/ncryptedcloud/img/biglockicon.png?024999c35dfd') no-repeat 97% 15px;
+}
+/* line 296, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer-column {
+  vertical-align: top;
+  width: 16%;
+  padding: 0 15px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+/* line 303, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+.footer-column.share-links {
+  width: 31%;
+}
+@media (min-width: 768px) {
+  /* line 310, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-column {
+    vertical-align: top;
+    width: 31%;
+    padding: 0 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+  /* line 319, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-bg {
+    background: #343434 url('/static/ncryptedcloud/img/biglockicon.png?024999c35dfd') no-repeat 89% 15px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 327, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-column {
+    vertical-align: top;
+    width: 16%;
+    padding: 0 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 340, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/components/footer.less */
+  .footer-column {
+    vertical-align: top;
+    width: 30%;
+    padding: 0 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+  }
+}
+/* line 1, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper {
+  display: inline-block;
+  overflow: visible;
+  max-width: 100%;
+  vertical-align: baseline;
+}
+/* line 7, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper-text {
+  display: inline-block;
+  width: 100%;
+}
+/* line 11, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper-text_fakelink {
+  color: #428bca;
+  cursor: pointer;
+}
+/* line 17, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper-link {
+  display: inline-block;
+  width: 100%;
+}
+/* line 22, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper_not-full-width {
+  max-width: 85%;
+  width: auto;
+}
+/* line 30, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper .tooltip-inner {
+  max-width: none;
+}
+/* line 35, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper_tooltip-filelist .tooltip {
+  left: 35px !important;
+}
+/* line 38, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper_tooltip-filelist .tooltip.top .tooltip-arrow {
+  left: 30px !important;
+}
+/* line 45, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper_tooltip-swm .tooltip {
+  left: 73px !important;
+}
+/* line 48, /Users/alexanderdoroshenko/Projects/ncc-web/webapp/ncryptedcloud/static/ncryptedcloud/less/directives/ncc_truncate.less */
+.truncate-wrapper_tooltip-swm .tooltip.top .tooltip-arrow {
+  left: 30px !important;
+}
+/* line 6, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobars-container {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+/* line 24, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+/* line 29, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_success {
+  background-color: #E3F9E3;
+  border: 2px solid #008116;
+  border-radius: 7px;
+  box-shadow: 0 6px 0 #008116, 0 4px 0 #008116;
+}
+/* line 33, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_success .fa {
+  color: #008116;
+}
+/* line 37, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_success .taskmanager-infobar-message__close-popup {
+  color: #008116;
+}
+/* line 40, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_success .taskmanager-infobar-message__close-popup:hover {
+  color: #00b41f;
+}
+/* line 46, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_progress {
+  background-color: #e3eef7;
+  border: 2px solid #0f5aa2;
+  border-radius: 7px;
+  box-shadow: 0 6px 0 #0f5aa2, 0 4px 0 #0f5aa2;
+}
+/* line 50, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_progress .fa {
+  color: #0f5aa2;
+}
+/* line 54, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_progress .taskmanager-infobar-message__close-popup {
+  color: #0f5aa2;
+}
+/* line 57, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar_progress .taskmanager-infobar-message__close-popup:hover {
+  color: #1374d1;
+}
+/* line 64, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-messages-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 69, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-messages-list li {
+  margin-top: 10px;
+}
+/* line 72, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-messages-list li:first-child {
+  margin-top: 0;
+}
+/* line 78, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message {
+  overflow: hidden;
+}
+/* line 81, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message__body {
+  float: left;
+}
+/* line 85, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message__content {
+  display: inline-block;
+}
+/* line 90, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message__content-showmore:before {
+  content: ' – ';
+}
+/* line 95, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message__meta {
+  display: inline-block;
+  float: right;
+}
+/* line 100, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message__active-task {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 2px;
+}
+/* line 106, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message__close-popup {
+  font-size: 18px;
+  line-height: 1;
+  position: absolute;
+  right: -4px;
+  padding: 10px;
+  top: -9px;
+}
+/* line 114, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/taskmanager-infobar.less */
+.taskmanager-infobar-message__close-popup:hover,
+.taskmanager-infobar-message__close-popup:focus {
+  text-decoration: none;
+  outline: none;
+}
+/* line 11, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+html,
+body {
+  height: 100%;
+}
+/* line 16, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-table-block {
+  margin-top: 50px;
+}
+/* line 20, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.pagination-block-right {
+  text-align: right!important;
+}
+/* line 24, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-table {
+  border-top: none;
+  table-layout: fixed;
+}
+/* line 25, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-table td {
+  vertical-align: middle!important;
+}
+/* line 33, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-name a {
+  display: inline-block;
+  text-decoration: none;
+}
+/* line 37, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-name a:hover .obj-name-link {
+  text-decoration: underline;
+}
+/* line 42, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-name span {
+  vertical-align: middle;
+}
+/* line 48, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-name-link {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  width: 90%;
+}
+/* line 54, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-name-link-wrapper {
+  white-space: nowrap;
+  width: 100%;
+}
+/* line 60, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-name-request {
+  cursor: pointer;
+}
+/* line 64, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-modified {
+  position: relative;
+}
+/* line 68, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-actions {
+  width: 25px;
+}
+/* line 72, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-name-theader {
+  width: 60%;
+}
+/* line 76, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-checkbox-theader {
+  width: 34px;
+  padding-bottom: 7px !important;
+}
+/* line 81, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-checkbox {
+  padding-bottom: 4px !important;
+}
+/* line 86, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.table-hover > tbody > tr.obj-table-item:hover > td .obj-download-button-block {
+  display: block;
+}
+/* line 91, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-table-item__selected {
+  background-color: #FCF8E3;
+}
+/* line 93, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-table-item__selected:hover > td {
+  background-color: #f5f1dc !important;
+}
+/* line 98, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+tr td .loader {
+  margin-top: -20px;
+}
+/* line 104, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file {
+  background: url("/static/cloudproviders/img/item_icons/sprites.png");
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+  text-indent: -9999px;
+  position: relative;
+  margin-right: 3px;
+  margin-left: -3px;
+}
+/* line 115, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-word {
+  background-position: 0px 0px;
+}
+/* line 118, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-video {
+  background-position: 0px -42px;
+}
+/* line 121, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-txt {
+  background-position: 0px -84px;
+}
+/* line 124, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-sound {
+  background-position: 0px -126px;
+}
+/* line 127, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-ppt {
+  background-position: 0px -168px;
+}
+/* line 130, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-photoshop {
+  background-position: 0px -210px;
+}
+/* line 133, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-pdf {
+  background-position: 0px -252px;
+}
+/* line 136, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-image {
+  background-position: 0px -294px;
+}
+/* line 139, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-folder {
+  background-position: 0px -336px;
+}
+/* line 142, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-file {
+  background-position: 0px -378px;
+}
+/* line 145, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-exe {
+  background-position: 0px -420px;
+}
+/* line 148, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-excel {
+  background-position: 0px -462px;
+}
+/* line 151, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-compressed {
+  background-position: 0px -504px;
+}
+/* line 154, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-code {
+  background-position: 0px -546px;
+}
+/* line 157, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-ai {
+  background-position: 0px -588px;
+}
+/* line 160, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-file-type-folder-up {
+  background-position: 0px -662px;
+}
+/* line 166, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-icon-file.ncc-shared-folder {
+  background-position: 0px -696px;
+}
+/* line 172, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-sub-icon {
+  position: absolute;
+  background: url("/static/cloudproviders/img/item_icons/folder-sub-icons-sprite.png");
+  width: 20px;
+  height: 20px;
+  top: -6px;
+  line-height: 20px;
+  display: inline-block;
+  text-indent: -9999px;
+}
+/* line 182, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-sub-icon.ncc-folder-lock {
+  right: -5px;
+  background-position: -10px 0;
+}
+/* line 187, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-sub-icon.ncc-folder-lock-personal {
+  right: -5px;
+  background-position: -10px -31px;
+}
+/* line 192, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ncc-sub-icon.ncc-folder-briefcase {
+  left: -7px;
+  background-position: -10px -62px;
+}
+/* line 202, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-table {
+  opacity: 0;
+  margin-top: -45px;
+  -webkit-transition: all linear 0.1s;
+  -moz-transition: all linear 0.1s;
+  -o-transition: all linear 0.1s;
+  transition: all linear 0.1s;
+}
+/* line 213, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.obj-table-show {
+  opacity: 1;
+}
+/* line 218, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.anim-progress-bar {
+  width: 100%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  transform: translate(0, 100px);
+  -ms-transform: translate(0, 100px);
+  /* IE 9 */
+  -webkit-transform: translate(0, 100px);
+  /* Safari and Chrome */
+  opacity: 1!important;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+/* line 231, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.small-progress-bar {
+  width: 100%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 1!important;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+/* line 241, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.tab404 {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+/* line 247, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.item_changed {
+  background: #EAF2F6;
+}
+/* line 252, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.parent-folder-row .obj-name-link {
+  font-weight: bold;
+}
+/* line 258, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.help-wells {
+  margin-top: 40px;
+}
+/* line 260, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.help-wells .well {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* line 267, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.help-wells .well:hover {
+  background-color: #DFF0D8;
+}
+/* line 272, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.help-header {
+  border-bottom: 1px solid #D1D1D1;
+  padding-bottom: 20px;
+}
+/* line 279, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.pdf_iframe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+/* line 290, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.container {
+  max-width: 980px;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 296, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.browser-not-supported {
+  padding: 10px 0 0 20px;
+}
+/* line 300, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.browser-not-supported h2 {
+  margin-top: 0px;
+}
+/* line 305, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ppt.custom {
+  color: #000!important;
+  margin: 0 0 5px 0;
+}
+/* line 311, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ie9 .my-drop-zone,
+.ie8 .my-drop-zone {
+  display: none!important;
+}
+/* line 317, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.wrap {
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  margin-top: -12px;
+  margin-left: -95px;
+  overflow: hidden;
+  height: 100px;
+  width: 200px;
+  z-index: 992;
+}
+/* line 329, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.loader {
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+/* line 336, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.cube1,
+.cube2,
+.cube3,
+.cube4,
+.cube5 {
+  border: none;
+  background-color: #000;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  -webkit-animation: cubemove 2s infinite ease-in-out;
+  animation: cubemove 2s infinite ease-in-out;
+  -moz-animation: cubemove 2s infinite ease-in-out;
+}
+/* line 353, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.cube2 {
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+  moz-animation-delay: -0.5s;
+}
+/* line 358, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.cube3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+  moz-animation-delay: -0.5s;
+}
+/* line 363, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.cube4 {
+  -webkit-animation-delay: -1.5s;
+  animation-delay: -1.5s;
+  moz-animation-delay: -0.5s;
+}
+/* line 368, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.cube5 {
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+  moz-animation-delay: -0.5s;
+}
+@-webkit-keyframes cubemove {
+  /* line 375, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  0% {
+    -webkit-transform: translateX(-120px);
+  }
+  /* line 376, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  50% {
+    -webkit-transform: translateX(0px) rotate(180deg) scale(2.2);
+    background: #288cf3;
+  }
+  /* line 377, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  100% {
+    -webkit-transform: translateX(120px);
+  }
+}
+@keyframes cubemove {
+  /* line 381, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  0% {
+    -webkit-transform: translateX(-120px);
+    transform: translateX(-120px);
+    opacity: 1;
+  }
+  /* line 386, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  50% {
+    -webkit-transform: translateX(0px) rotate(180deg) scale(2.2);
+    transform: translateX(0px) rotate(180deg) scale(2.2);
+    background: #288cf3;
+    opacity: 0.5;
+  }
+  /* line 391, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  100% {
+    -webkit-transform: translateX(120px);
+    transform: translateX(120px);
+    opacity: 0;
+  }
+}
+/* line 399, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.enter-access-code-block {
+  margin-top: 50px;
+}
+/* line 402, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.enter-access-code-controls {
+  width: 400px;
+  display: inline-block;
+  margin-top: 20px;
+}
+/* line 408, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.enter-access-code-controls .btn-lg {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+}
+/* line 415, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ts-image-container {
+  margin-top: 50px;
+}
+/* line 417, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ts-image-container div {
+  position: relative;
+  display: inline-block;
+}
+/* line 420, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.ts-image-container div .ts-seconds {
+  border-radius: 4px;
+  font-size: 21px;
+  background: red;
+  opacity: .5;
+  padding: 3px 10px;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/* line 433, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.folder-upload-status {
+  margin-left: 20px;
+}
+@media print {
+  /* line 438, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  .non-printable {
+    display: none;
+  }
+  /* line 443, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  .pp_pic_holder {
+    top: 0 !important;
+  }
+  /* line 446, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+  .pp_overlay {
+    display: none !important;
+  }
+}
+/* line 451, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.mail-header {
+  background-color: #f7f7f7;
+  color: #0072BA;
+  padding: 5px 15px 5px 15px;
+  margin: 0;
+}
+/* line 456, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.mail-header span {
+  color: #000;
+}
+/* line 461, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.mail-timestamp {
+  padding-bottom: 20px;
+}
+/* line 465, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.mail-subject {
+  padding-bottom: 20px;
+}
+/* line 469, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.mail-from {
+  padding-top: 20px;
+}
+/* line 473, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.body-image {
+  width: 100%;
+}
+/* line 477, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+.protected-body-image {
+  background-size: 100% 100%;
+  width: 100%;
+}
+/* line 482, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncc_cwp/less/cwp.less */
+div#html_root > iframe {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}

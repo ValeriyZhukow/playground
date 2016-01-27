@@ -1,0 +1,80 @@
+<div class="modal-header">
+    <button ng-click="cancel()" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+    <h4 class="modal-title">Enable Shares</h4>
+</div>
+        
+
+<div class="modal-body" ng-if="!hasExpiredItems">
+    <p ng-if="items.length === 1">Are you sure you want to enable the share <strong>{{ items[0].name }}</strong> for <strong ng-bind-html="items[0] | recipientsFilter"></strong>?</p>
+    <p ng-if="items.length !== 1">Are you sure you want to enable these <strong>{{ items.length }} shares</strong>?</p>
+</div>
+
+
+<div class="modal-body" ng-if="hasExpiredItems">
+    <p>There are <strong>{{ expiredItemsCountLabel }} expired shares</strong>.</p>
+    <p>Please set a new expiration date for these shares before enabling them.</p>
+
+    <p ng-show="hasMixedItemTypesInSelection && differentMaxExpirations"
+       class="text-danger">
+        You have selected shares that must adhere to <strong>{{ organizationNameLabel }}</strong>
+        corporate policy.
+        Per {{ organizationNameLabel }} corporate policy, you can't set an expiration date for more
+        than <strong>{{ expiration.errors.biggerThanMaxLabel }}</strong>.
+        To avoid this restriction, please select non-{{ organizationNameLabel }} shares.
+    </p>
+
+    <div>
+        <div ng-hide="extendOptions.advancedSelector">
+
+            <ncc-simple-expire-selector
+                item="item"
+                options="extendOptions.options"
+                selected="extendOptions.selected">
+            </ncc-simple-expire-selector>
+
+            <div>
+                <a class="" style="display: block;" href=""
+                   ng-click="extendOptions.advancedSelector = true">Advanced</a>
+            </div>
+        </div>
+
+        <div ng-show="extendOptions.advancedSelector">
+            <div class="form-group" style="display:inline-block;">
+                <div class='input-group date'
+                     id='datetimepicker2'
+                     ui-datetimepicker
+                     datetimepicker-init-date="tomorrow"
+                     ng-model="temp"
+                     validation-errors="expiration.errors"
+                     max-expiration="item.policy['max-expiration'].value"
+                     binddata="advancedDate.date">
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-danger" ng-show="expiration.errors.dateInPast">You can't set this expiration date.</p>
+                <p class="text-danger" ng-show="expiration.errors.invalidDate">Invalid date</p>
+                <p class="text-danger" style=""
+                   ng-show="expiration.errors.biggerThanMax">Per corporate policy, you can't set an expiration date<br />for
+                    more than <strong>{{ expiration.errors.biggerThanMaxLabel }}</strong>.</p>
+            </div>
+
+            <div>
+                <a href="" ng-click="extendOptions.advancedSelector = false">Simple</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal-footer" ng-if="hasExpiredItems">
+    <button class="btn btn-default" ng-click="cancel()" style="background-color: #EBEBEB; border: 0;">Cancel</button>
+    <button class="btn btn-primary btn_brand" ng-disabled="hasErrors()" ng-click="activateItemsWithExpireDate()" style="background-color: #0060AC;border: 0;">Enable</button>
+</div>
+
+<div class="modal-footer" ng-if="!hasExpiredItems">
+    <button class="btn btn-default" ng-click="cancel()" style="background-color: #EBEBEB; border: 0;">Cancel</button>
+    <button class="btn btn-primary btn_brand" ng-disabled="hasErrors()" ng-click="activateItem()" style="background-color: #0060AC;border: 0;">Enable</button>
+</div>

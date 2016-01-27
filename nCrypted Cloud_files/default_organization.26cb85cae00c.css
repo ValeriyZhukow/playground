@@ -1,0 +1,8 @@
+/* line 1, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/organizations/less/default_organization.less */
+.logo {
+  background: url(/static/ncryptedcloud/img/logo_white.png) no-repeat;
+}
+/* line 5, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/organizations/less/default_organization.less */
+a.navbar-brand {
+  background: url(/static/organizations/img/ncc_fullcolor.png) no-repeat !important;
+}

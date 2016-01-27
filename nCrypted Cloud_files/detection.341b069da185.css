@@ -1,0 +1,126 @@
+/* line 1, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.detection {
+  display: none;
+}
+/* line 6, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body,
+.ie-old body,
+.ie-edge body {
+  background-color: #ffffff;
+}
+/* line 8, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body > #content-wrapper,
+.ie-old body > #content-wrapper,
+.ie-edge body > #content-wrapper,
+.no-js body > .container,
+.ie-old body > .container,
+.ie-edge body > .container {
+  display: none !important;
+}
+/* line 11, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body .detection,
+.ie-old body .detection,
+.ie-edge body .detection {
+  display: block !important;
+  min-height: 550px;
+}
+/* line 15, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body .detection .row,
+.ie-old body .detection .row,
+.ie-edge body .detection .row {
+  margin: 70px;
+  color: #5b5b5b;
+}
+/* line 18, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body .detection .row img,
+.ie-old body .detection .row img,
+.ie-edge body .detection .row img {
+  padding-right: 40px;
+}
+/* line 21, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body .detection .row h3,
+.ie-old body .detection .row h3,
+.ie-edge body .detection .row h3 {
+  margin-top: 80px;
+}
+/* line 25, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body .detection .row .browser-unsupported .browser-link,
+.ie-old body .detection .row .browser-unsupported .browser-link,
+.ie-edge body .detection .row .browser-unsupported .browser-link {
+  display: block;
+}
+/* line 27, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body .detection .row .browser-unsupported .browser-link a,
+.ie-old body .detection .row .browser-unsupported .browser-link a,
+.ie-edge body .detection .row .browser-unsupported .browser-link a {
+  padding-left: 10px;
+}
+/* line 29, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js body .detection .row .browser-unsupported .browser-link a:first-child,
+.ie-old body .detection .row .browser-unsupported .browser-link a:first-child,
+.ie-edge body .detection .row .browser-unsupported .browser-link a:first-child {
+  padding-left: 0px;
+}
+/* line 40, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js .js-disabled {
+  display: block;
+}
+/* line 43, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js .browser-unsupported {
+  display: none;
+}
+/* line 46, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.no-js .browser-msedge {
+  display: none;
+}
+/* line 52, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.ie-old .browser-unsupported {
+  display: block;
+}
+/* line 55, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.ie-old .js-disabled {
+  display: none;
+}
+/* line 58, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.ie-old .browser-msedge {
+  display: none;
+}
+/* line 64, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.ie-edge .browser-unsupported {
+  display: none;
+}
+/* line 67, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.ie-edge .js-disabled {
+  display: none;
+}
+/* line 70, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.ie-edge .browser-msedge {
+  display: block;
+}
+/* line 75, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.arrowed-tooltip {
+  position: absolute;
+  z-index: 5;
+}
+/* line 79, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.arrowed-tooltip_edge-browser {
+  right: 0;
+  top: 20px;
+  width: 280px;
+  height: 230px;
+}
+/* line 86, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.arrowed-tooltip__arrow {
+  width: 102px;
+  height: 142px;
+  left: 130px;
+  top: 0;
+  position: absolute;
+  background: transparent url('/static/ncc_cwp/img/arrow-top.png') 0 0 no-repeat;
+}
+/* line 95, /Users/alexanderdoroshenko/Projects/ncc-web/var/shared/static/ncryptedcloud/less/utils/detection.less */
+.arrowed-tooltip__tooltip {
+  position: absolute;
+  top: 160px;
+  left: 0;
+}

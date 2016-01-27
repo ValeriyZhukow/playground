@@ -1,0 +1,15 @@
+<div class="share-search">
+
+    <div class="search-spinner" ncc-spinner ng-show="requestInProgress"></div>
+
+    <div class="form-control-search form-control-search_icon">
+        <i class="fa fa-search"></i>
+        <input type="text"
+               ng-class="{'form-control-search_active': searchView}"
+               class="form-control"
+               placeholder="{{ searchPlaceholderText }}"
+               ng-model="search.value"
+               ng-keydown="keyPress($event)"> <span class="reset-input-mark reset-input-mark_hidden" ng-click="resetSearch()" ng-class="{'reset-input-mark_showed': searchView}">x</span>
+    </div>
+
+</div>
