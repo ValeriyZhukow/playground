@@ -1,331 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Case</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <title>Bootstrap Case</title>
 
-  <style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-.navbar {
-    background: #0E68B5;
-    border: none;
-    border-radius: 0;
-}
-a.navbar-brand {
-    margin-top: -4px;
-}
-.navbar-inverse .navbar-nav > li > a {
-    color:#fff;
-}
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav >    .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
-    background: #0082d3;
-}
-.navbar-inverse .navbar-nav > li:focus, .navbar-inverse .navbar-nav > li:hover {
-    background: #0082d3;
-}
-.lead {
-    margin: 0;
-    padding: 0;
-}
-.first-button  {
-    margin-top: -20px;
-    position: relative;
-    top: 35px;
-}
-.first-button button, .second-button button  {
-    padding: 6px 20px 6px 10px;
-}
-.second-list {
-    margin-left: 150px; 
-    margin-bottom: 0px;
-}
-.second-list li a {
-    text-decoration: none;
-}
-.second-list li a:active {
-    color:#000;
-}
-.pull-right img {
-    width: 20px;
-    height: 20px;
-}
-input[type="seacrh"] {
-    width: 200px;
-    padding: 3px 5px;
-    margin-top: 4px;
-    margin-bottom: 20px;
-    border-radius: 5px;  
-}
-.second-button {
-    margin-top: -10px;
-    position: relative;
-    left: 50px;
-    top: 113px;
-}
-.dropdown-menu li a:hover {
-  background: #0E68B5;
-  color: #fff;
-}
+    <style>
+        .navbar {
+            background: #0E68B5;
+            border: none;
+            border-radius: 0;
+        }
 
+        a.navbar-brand {
+            margin-top: -4px;
+        }
 
-  </style>
+        .navbar-inverse .navbar-nav > li > a {
+            color: #fff;
+        }
 
+        .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+            background: #0082d3;
+        }
+
+        .navbar-inverse .navbar-nav > li:focus, .navbar-inverse .navbar-nav > li:hover {
+            background: #0082d3;
+        }
+
+        .lead {
+            margin: 0;
+            padding: 0;
+        }
+
+        .first-button {
+            margin-top: -20px;
+            position: relative;
+            top: 35px;
+        }
+
+        .first-button button, .second-button button {
+            padding: 6px 20px 6px 10px;
+        }
+
+        .second-list {
+            margin-left: 150px;
+            margin-bottom: 0px;
+        }
+
+        .second-list li a {
+            text-decoration: none;
+        }
+
+        .second-list li a:active {
+            color: #000;
+        }
+
+        .pull-right img {
+            width: 20px;
+            height: 20px;
+        }
+
+        input[type="seacrh"] {
+            width: 200px;
+            padding: 3px 5px;
+            margin-top: 4px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .second-button {
+            margin-top: -10px;
+            position: relative;
+            left: 50px;
+            top: 113px;
+        }
+
+        .dropdown-menu li a:hover {
+            background: #0E68B5;
+            color: #fff;
+        }
+    </style>
 </head>
-  <body>
+<body>
 
 
- <nav class="navbar navbar-inverse">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="https://www.encryptedcloud.com/">
-       <img src="https://www.ncryptedcloud.com/static/ncryptedcloud/img/logo_white.png?6f06262838bf">
-      </a>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.encryptedcloud.com/">
+                <img src="https://www.ncryptedcloud.com/static/ncryptedcloud/img/logo_white.png?6f06262838bf">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="https://www.ncryptedcloud.com/notifications/#/notifications/rk/" data-toggle="tooltip"
+                       data-placement="bottom" title="Notifications" class="lead">
+                    <span class="glyphicon glyphicon-bell"></span></a></li>
+                <li class="active"><a
+                        href="https://www.ncryptedcloud.com/collaborations/manage_collaborations/#!/swm/active"
+                        data-toggle="tooltip" data-placement="bottom" title="Collaboration_management" class="lead">
+                    <span class="glyphicon glyphicon-user"></span></a></li>
+                <li><a href="https://www.ncryptedcloud.com/cloudwebportal/onedrive_1/#!/" data-toggle="tooltip"
+                       data-placement="bottom" title="Cloud Providers" class="lead">
+                    <span class="glyphicon glyphicon-cloud"></span></a></li>
+                <li><a href="https://www.ncryptedcloud.com/auditing/#/history" data-toggle="tooltip"
+                       data-placement="bottom" title="Auditing" class="lead">
+                    <span class="glyphicon glyphicon-tasks"></span></a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="https://www.encryptedcloud.com/" class="lead" data-toggle="tooltip" data-placement="bottom"
+                       title="Back to nCrypted Cloud Homepage">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.ncryptedcloud.com/cloudwebportal/help/">
+                        <span class="glyphicon glyphicon-list-alt"></span> Help
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="https://www.ncryptedcloud.com/notifications/#/notifications/rk/" data-toggle="tooltip" data-placement="bottom" title="Notifications" class="lead">
-          <span class="glyphicon glyphicon-bell"></span></a></li>
-        <li class="active"><a href="https://www.ncryptedcloud.com/collaborations/manage_collaborations/#!/swm/active" data-toggle="tooltip" data-placement="bottom" title="Collaboration_management" class="lead"> 
-          <span class="glyphicon glyphicon-user"></span></a></li> 
-        <li><a href="https://www.ncryptedcloud.com/cloudwebportal/onedrive_1/#!/" data-toggle="tooltip" data-placement="bottom" title="Cloud Providers" class="lead">
-          <span class="glyphicon glyphicon-cloud"></span></a></li>
-        <li><a href="https://www.ncryptedcloud.com/auditing/#/history" data-toggle="tooltip" data-placement="bottom" title="Auditing" class="lead">
-          <span class="glyphicon glyphicon-tasks"></span></a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-          <li>
-          <a href="https://www.encryptedcloud.com/" class="lead" data-toggle="tooltip" data-placement="bottom" title="Back to nCrypted Cloud Homepage">
-          <span class="glyphicon glyphicon-home"></span></a>
-        </li>
-        <!--    <li>
-          <a href="#" class="lead" data-toggle="tooltip" data-placement="bottom" title="Back to nCrypted Cloud Homepage">
-          <span class="glyphicon  glyphicon glyphicon-log-out"></span></a>
-        </li> -->
+</nav>
 
-        <li>
-        </li>
 
-        <li><a href="https://www.ncryptedcloud.com/cloudwebportal/help/"><span class="glyphicon glyphicon-list-alt"></span> Help </a>
-        </li>
-      </ul>
-    </div>
-  </div>
- </nav>
-
-  
 <div class="container">
     <ul class="list-inline first-list">
-      <li>
-        <a href="#Shared With Me">
-         <h4><span style="color:#000;"> Shared With Me </span></h4>
-        </a>
-     </li>
-     <li>|</li>
-     <li>
-        <a href="#My Shares">
-         <h4><span> My Shares </span></h4>
-        </a>
-      </li>
+        <li>
+            <a href="#Shared With Me">
+                <h4><span style="color:#000;"> Shared With Me </span></h4>
+            </a>
+        </li>
+        <li>|</li>
+        <li>
+            <a href="#My Shares">
+                <h4><span> My Shares </span></h4>
+            </a>
+        </li>
     </ul>
 </div>
 
 <div class="container">
- <div class="btn-group first-button">
-  <button type="button" class="btn btn-default disabled">Bulk actions</button>
-  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" disabled>
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-    <li><a href="#"> </a></li>
-    <li><a href="#"> </a></li>
-  </ul>
- </div>
+    <div class="btn-group first-button">
+        <button type="button" class="btn btn-default disabled">Bulk actions</button>
 
-   <ul class="list-inline second-list">
-      <li>
-        <a href="#Active" data-toggle="tab">
-          <h5><span>Active (0)</span></h5>
-        </a>
-      </li>
-      <li>|</li>
-      <li>
-        <a href="#Disabled" data-toggle="tab">
-          <h5><span>Disabled (0)</span></h5>
-        </a>
-      </li>
-      <li>|</li>
-      <li>
-        <a href="#Requasted" data-toggle="tab">
-          <h5><span>Requasted (0)</span></h5>
-        </a>
-      </li>
-      <li class="pull-right">
-        <span class="glyphicon glyphicon-search"></span>
-        <input type="seacrh" placeholder="Search by title or sender...">
-      <img src="http://by.pokupon.com/assets/ajax-loader-sm-d56c7ccb539b54852b20718bce7aff38.gif">
-      </li>
-    </ul>
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" disabled>
+            <span class="caret"></span>
+        </button>
 
-     <div class="tab-content">
-    <div id="Active" class="tab-pane fade in active">
-     
-
-   <table class="table table-bordered table-striped table-hover">
-      <tr>
-        <th class="text-center"><input type="checkbox"></th>
-        <th>Title</th>
-        <th>Sender</th>
-        <th>Organization</th>
-        <th>Data Shared</th>
-        <th>Expiration</th>
-        <th>Last Accessed</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td colspan="8" class="text-center" style="padding:10px;">You have no active shares.</td>
-      </tr>
-      <tr>
-        <td>Show</td>
-        <td colspan="7"> </td>
-          <div class="btn-group second-button dropup">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows</button>
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <span class="caret"></span></button>
-           <ul class="dropdown-menu">
-             <li><a href="#25">25 Rows</a></li>
-             <li><a href="#50">50 Rows</a></li>
-             <li><a href="#100">100 Rows</a></li>
-           </ul>
-          </div>
-     </tr>
-   </table>
-
-     
+        <ul class="dropdown-menu">
+            <li><a href="#"> </a></li>
+            <li><a href="#"> </a></li>
+        </ul>
     </div>
-    <div id="Disabled" class="tab-pane fade">
-     
-     
-   <table class="table table-bordered table-striped table-hover">
-      <tr>
-        <th class="text-center"><input type="checkbox"></th>
-        <th>Title</th>
-        <th>Sender</th>
-        <th>Organization</th>
-        <th>Data Shared</th>
-        <th>Expiration</th>
-        <th>Last Accessed</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td colspan="8" class="text-center" style="padding:10px;">You have no disabled shares.</td>
-      </tr>
-      <tr>
-        <td>Show</td>
-        <td colspan="7"> </td>
-          <div class="btn-group second-button dropup">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows</button>
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <span class="caret"></span></button>
-           <ul class="dropdown-menu">
-             <li><a href="#25">25 Rows</a></li>
-             <li><a href="#50">50 Rows</a></li>
-             <li><a href="#100">100 Rows</a></li>
-           </ul>
-          </div>
-     </tr>
-   </table>
 
-
+    <div>
+        <ul class="list-inline second-list">
+            <li>
+                <a href="#Active" data-toggle="tab">
+                    <h5><span>Active (0)</span></h5>
+                </a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#Disabled" data-toggle="tab">
+                    <h5><span>Disabled (0)</span></h5>
+                </a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="#Requasted" data-toggle="tab">
+                    <h5><span>Requasted (0)</span></h5>
+                </a>
+            </li>
+            <li class="pull-right">
+                <span class="glyphicon glyphicon-search"></span>
+                <input type="seacrh" placeholder="Search by title or sender...">
+                <img src="http://by.pokupon.com/assets/ajax-loader-sm-d56c7ccb539b54852b20718bce7aff38.gif">
+            </li>
+        </ul>
     </div>
-    <div id="Requasted" class="tab-pane fade">
-     
-   
-   <table class="table table-bordered table-striped table-hover">
-      <tr>
-        <th class="text-center"><input type="checkbox"></th>
-        <th>Title</th>
-        <th>Sender</th>
-        <th>Organization</th>
-        <th>Date Requested</th>
-        <th>Extension Requested</th>
-        <th>Last Accessed</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td colspan="8" class="text-center" style="padding:10px;">You have no requested shares.</td>
-      </tr>
-      <tr>
-        <td>Show</td>
-        <td colspan="7"> </td>
-          <div class="btn-group second-button dropup">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows</button>
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <span class="caret"></span></button>
-           <ul class="dropdown-menu">
-             <li><a href="#25">25 Rows</a></li>
-             <li><a href="#50">50 Rows</a></li>
-             <li><a href="#100">100 Rows</a></li>
-           </ul>
-          </div>
-     </tr>
-   </table>
 
+    <div class="tab-content">
+        <div id="Active" class="tab-pane fade in active">
+            <table class="table table-bordered table-striped table-hover">
+                <tr>
+                    <th class="text-center"><input type="checkbox"></th>
+                    <th>Title</th>
+                    <th>Sender</th>
+                    <th>Organization</th>
+                    <th>Data Shared</th>
+                    <th>Expiration</th>
+                    <th>Last Accessed</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td colspan="8" class="text-center" style="padding:10px;">You have no active shares.</td>
+                </tr>
+                <tr>
+                    <td>Show</td>
+                    <td colspan="6"></td>
+                    <td>
+                        <div class="btn-group second-button dropup">
+                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows
+                            </button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#25">25 Rows</a></li>
+                                <li><a href="#50">50 Rows</a></li>
+                                <li><a href="#100">100 Rows</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
+        <div id="Disabled" class="tab-pane fade">
+            <table class="table table-bordered table-striped table-hover">
+                <tr>
+                    <th class="text-center"><input type="checkbox"/></th>
+                    <th>Title</th>
+                    <th>Sender</th>
+                    <th>Organization</th>
+                    <th>Data Shared</th>
+                    <th>Expiration</th>
+                    <th>Last Accessed</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td colspan="8" class="text-center" style="padding:10px;">You have no disabled shares.</td>
+                </tr>
+                <tr>
+                    <td>Show</td>
+                    <td colspan="6"></td>
+                    <td>
+                        <div class="btn-group second-button dropup">
+                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows
+                            </button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#25">25 Rows</a></li>
+                                <li><a href="#50">50 Rows</a></li>
+                                <li><a href="#100">100 Rows</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
+        <div id="Requasted" class="tab-pane fade">
+            <table class="table table-bordered table-striped table-hover">
+                <tr>
+                    <th class="text-center"><input type="checkbox"/></th>
+                    <th>Title</th>
+                    <th>Sender</th>
+                    <th>Organization</th>
+                    <th>Date Requested</th>
+                    <th>Extension Requested</th>
+                    <th>Last Accessed</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td colspan="8" class="text-center" style="padding:10px;">You have no requested shares.</td>
+                </tr>
+                <tr>
+                    <td>Show</td>
+                    <td colspan="6"></td>
+                    <td>
+                        <div class="btn-group second-button dropup">
+                            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows
+                            </button>
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#25">25 Rows</a></li>
+                                <li><a href="#50">50 Rows</a></li>
+                                <li><a href="#100">100 Rows</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<!-- <div class="container">
-   <table class="table table-striped table-hover">
-      <tr>
-        <th class="text-center"><input type="checkbox"></th>
-        <th>Title</th>
-        <th>Sender</th>
-        <th>Organization</th>
-        <th>Data Shared</th>
-        <th>Expiration</th>
-        <th>Last Accessed</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <td colspan="8" class="text-center">You have no active shares.</td>
-      </tr>
-      <tr>
-        <td>Show</td>
-        <td colspan="7"> </td>
-          <div class="btn-group second-button dropup">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows</button>
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    <span class="caret"></span></button>
-           <ul class="dropdown-menu">
-             <li><a href="#25">25 Rows</a></li>
-             <li><a href="#50">50 Rows</a></li>
-             <li><a href="#100">100 Rows</a></li>
-           </ul>
-          </div>
-     </tr>
-   </table>
-</div>
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 
- -->
-
-  <script>
-      $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();   
-      });
-  </script>
-
-
-  </body>
+</body>
 </html>
