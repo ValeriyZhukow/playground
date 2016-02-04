@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
     <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+
         .navbar {
             background: #0E68B5;
             border: none;
@@ -297,6 +301,59 @@
                     </td>
                 </tr>
             </table>
+        </div>
+    </div>
+
+    <div class="row" ng-app="testApp">
+        <div class="col-md-12" ng-controller="testController" ng-cloak>
+            <h2>Domain manager component</h2>
+
+            <hr />
+
+            <div>
+                <div>
+                    <div ng-show="!editMode">
+                        <div>
+                            <div>
+                                <p>Domains</p>
+                            </div>
+                            <div>
+                                <a href="" ng-click="editMode = true;">Edit</a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li ng-repeat="(idx, domain) in domains">{{domain}}</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div ng-show="editMode">
+                        <div>
+                            <div>
+                                <p>Domains</p>
+                            </div>
+                            <div>
+                                <a href="" ng-click="editMode = false;">Done</a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li ng-repeat="(idx, domain) in domains" ng-click="remove(idx)">{{domain}} <span>×</span></li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <input type="text"
+                                   placeholder="Add domain"
+                                   ng-model="newDomain"/>
+                            <a ng-click="add()">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
