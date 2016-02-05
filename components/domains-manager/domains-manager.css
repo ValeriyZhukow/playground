@@ -1,1 +1,43 @@
-/* Write styles here */
+p {
+	font-weight: bold;
+}
+p a {
+	margin-left: 10px;
+	font-weight: normal;
+}
+.domains .list-inline li {
+	font-weight: 500;
+	border: 1px solid lightgray;
+	border-radius: 20px;
+	margin: 10px 15px 0 0;
+	padding: 0 10px;
+}
+.left li {
+	color: #5289CC;
+}
+.left li span {
+	color: #000;
+}
+.left li:hover {
+	cursor: pointer;
+	background: #EE212C;
+	color: #fff;
+}
+.left li:hover span {
+  color: #fff;
+}
+input {
+	padding-left: 10px;
+	margin: 8px 0 0 5px;
+}
+.left + div a {
+	border: 1px solid lightgray;
+	padding: 5px;
+	color: #000;
+	font-weight: 500;
+	cursor: pointer;
+}
+.left {
+	float: left;
+}
+

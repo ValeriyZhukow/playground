@@ -80,8 +80,8 @@
         .second-button {
             margin-top: -10px;
             position: relative;
-            left: 50px;
-            top: 113px;
+            right: 0px;
+            top: 5px;
         }
 
         .dropdown-menu li a:hover {
@@ -215,10 +215,8 @@
                     <td colspan="8" class="text-center" style="padding:10px;">You have no active shares.</td>
                 </tr>
                 <tr>
-                    <td>Show</td>
-                    <td colspan="6"></td>
-                    <td>
-                        <div class="btn-group second-button dropup">
+                    <td style="width: 30px;">Show</td>
+                    <td colspan="8"><div class="btn-group second-button dropup">
                             <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows
                             </button>
                             <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -250,9 +248,8 @@
                     <td colspan="8" class="text-center" style="padding:10px;">You have no disabled shares.</td>
                 </tr>
                 <tr>
-                    <td>Show</td>
-                    <td colspan="6"></td>
-                    <td>
+                    <td style="width: 30px;">Show</td>
+                    <td colspan="8">
                         <div class="btn-group second-button dropup">
                             <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows
                             </button>
@@ -285,9 +282,8 @@
                     <td colspan="8" class="text-center" style="padding:10px;">You have no requested shares.</td>
                 </tr>
                 <tr>
-                    <td>Show</td>
-                    <td colspan="6"></td>
-                    <td>
+                    <td style="width: 30px;">Show</td>
+                    <td colspan="8">
                         <div class="btn-group second-button dropup">
                             <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">25 Rows
                             </button>
@@ -305,26 +301,26 @@
         </div>
     </div>
 
+
+
+
+
+
+
+
     <div class="row" ng-app="testApp">
         <div class="col-md-12" ng-controller="testController" ng-cloak>
             <h2>Domain manager component</h2>
 
-            <hr />
+                <hr />
 
-            <div>
-                <div>
                     <div ng-show="!editMode">
                         <div>
-                            <div>
-                                <p>Domains</p>
-                            </div>
-                            <div>
-                                <a href="" ng-click="editMode = true;">Edit</a>
-                            </div>
+                           <p>Domains<a href="" ng-click="editMode = true;">Edit</a>
+                           </p>
                         </div>
-
-                        <div>
-                            <ul>
+                        <div class="domains">
+                            <ul class="list-inline">
                                 <li ng-repeat="(idx, domain) in domains">{{domain}}</li>
                             </ul>
                         </div>
@@ -332,32 +328,24 @@
 
                     <div ng-show="editMode">
                         <div>
-                            <div>
-                                <p>Domains</p>
-                            </div>
-                            <div>
-                                <a href="" ng-click="editMode = false;">Done</a>
-                            </div>
+                           <p>Domains<a href="" ng-click="editMode = false;">Done</a>
+                           </p>
                         </div>
 
-                        <div>
-                            <ul>
-                                <li ng-repeat="(idx, domain) in domains" ng-click="remove(idx)">{{domain}} <span>×</span></li>
+                        <div class="domains">
+                            <ul class="list-inline left">
+                                <li ng-repeat="(idx, domain) in domains" ng-click="remove(idx)">{{domain}} <span>×</span>
+                                </li>
                             </ul>
-                        </div>
-
-                        <div>
-                            <input type="text"
-                                   placeholder="Add domain"
-                                   ng-model="newDomain"/>
-                            <a ng-click="add()">Add</a>
+                             <div class="left">
+                                <input type="text" placeholder="Add domain" ng-model="newDomain"/>
+                                <a ng-click="add()">Add</a>
+                             </div>
                         </div>
                     </div>
-                </div>
+
             </div>
         </div>
-    </div>
-</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
