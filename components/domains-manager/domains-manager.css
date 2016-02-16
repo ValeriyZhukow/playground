@@ -1,9 +1,11 @@
 
-.domains-edit__p, .domains-done__p {
+ .domains-edit__p,
+ .domains-done__p {
 		font-weight: bold;
 }
 
-.domains-edit__a, .domains-done__a1 {
+ .domains-edit__a,
+ .domains-done__a1 {
 		margin-left: 10px;
 		font-weight: normal;
 }
