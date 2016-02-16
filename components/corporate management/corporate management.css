@@ -1,0 +1,102 @@
+
+.container {
+	min-width: 522px;
+}
+
+.navbar {
+    background: #1052A6;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    margin-top: -4px;
+}
+
+.glyphicon {
+    color: #fff;
+}
+	/*  С этим попробую разобраться чтобы сделать короче или переопередить  */
+ .navbar-inverse .navbar-nav > .active > .navbar-nav__link,
+ .navbar-inverse .navbar-nav > .active > .navbar-nav__link:focus,
+ .navbar-inverse .navbar-nav > .active > .navbar-nav__link:hover {
+    background: #0082d3; 
+}
+
+ .navbar-nav__item:hover,
+ .navbar-right__item:hover {
+    background: #0082d3;
+}
+
+.lead {
+    margin: 0;
+    padding: 0;
+}
+
+.content__header {
+		margin-bottom: 40px;
+}
+
+.branding-item-left__head {
+	font-weight: bold;
+	font-size: 15px;
+	color: #0F73B6;
+	padding-top: 7px;
+}
+
+.branding-item-left__btn {
+		margin-left: 15px;
+}
+
+.branding__right {
+		margin-right: 30px;
+}
+
+.branding-btn__right {
+		margin-left: 5px; 
+}
+
+.hr-bottom-top {
+		margin-top: 88px;
+		color: #E4E3E4;
+		margin-bottom: 30px;
+}
+
+.branding__text {
+		font-size: 15px;
+		margin-bottom: 20px;
+}
+
+.branding__full-color, .branding__white-color  {
+		display: inline-block;
+		margin-right: 25px;
+}
+
+.branding-logo__head {
+		font-size: 14px;
+		font-weight: 600;
+}
+.branding-logo__img {
+		width: 318px;
+		height: 100px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
