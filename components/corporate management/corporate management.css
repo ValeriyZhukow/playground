@@ -37,7 +37,8 @@
 		margin-bottom: 40px;
 }
 
-.branding-item-left__head {
+ .branding-item-left__head, 
+ .colors__head {
 	font-weight: bold;
 	font-size: 15px;
 	color: #0F73B6;
@@ -56,13 +57,14 @@
 		margin-left: 5px; 
 }
 
-.hr-bottom-top {
+.hr-branding {
 		margin-top: 88px;
-		color: #E4E3E4;
+		color: #000;
 		margin-bottom: 30px;
 }
 
-.branding__text {
+ .branding__text,
+ .colors__text {
 		font-size: 15px;
 		margin-bottom: 20px;
 }
@@ -81,7 +83,26 @@
 		height: 100px; 
 }
 
+.colors {
+		margin-top: 60px;
+}
 
+.hr-colors {
+		margin-top: 0;
+		color: #000;
+		margin-bottom: 30px;
+}
+
+.colors__picker {
+		width: 245px;
+		height: 70px;
+}
+
+.colors_value {
+		margin-top: 10px;
+		font-size: 16px;
+		color: #A5A5A7;
+}
 
 
 
