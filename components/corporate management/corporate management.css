@@ -1,6 +1,6 @@
 
 .container {
-	min-width: 522px;
+	  min-width: 522px;
 }
 
 .navbar {
@@ -16,7 +16,7 @@
 .glyphicon {
     color: #fff;
 }
-	/*  С этим попробую разобраться чтобы сделать короче или переопередить  */
+	/*  С этим попробую разобраться чтобы сделать короче или переопередить */
  .navbar-inverse .navbar-nav > .active > .navbar-nav__link,
  .navbar-inverse .navbar-nav > .active > .navbar-nav__link:focus,
  .navbar-inverse .navbar-nav > .active > .navbar-nav__link:hover {
@@ -33,12 +33,14 @@
     padding: 0;
 }
 
-.content__header {
+.content-header {
 		margin-bottom: 40px;
 }
 
  .branding-item-left__head, 
- .colors__head {
+ .colors__head,
+ .proxy-settings__head,
+ .corp-proud-provider__head {
 	font-weight: bold;
 	font-size: 15px;
 	color: #0F73B6;
@@ -49,7 +51,7 @@
 		margin-left: 15px;
 }
 
-.branding__right {
+.branding-right {
 		margin-right: 30px;
 }
 
@@ -58,9 +60,8 @@
 }
 
 .hr-branding {
-		margin-top: 88px;
+		margin: 10px 0 25px 0;
 		color: #000;
-		margin-bottom: 30px;
 }
 
  .branding__text,
@@ -69,7 +70,8 @@
 		margin-bottom: 20px;
 }
 
-.branding__full-color, .branding__white-color  {
+ .branding__full-color,
+ .branding__white-color  {
 		display: inline-block;
 		margin-right: 25px;
 }
@@ -88,34 +90,69 @@
 }
 
 .hr-colors {
-		margin-top: 0;
+		margin: 0 0 30px 0;
 		color: #000;
-		margin-bottom: 30px;
 }
 
 .colors__picker {
 		width: 245px;
 		height: 70px;
+		cursor: pointer;
 }
 
-.colors_value {
-		margin-top: 10px;
+.colors__value {
+		margin: 10px 0 50px 0;
 		font-size: 16px;
 		color: #A5A5A7;
 }
 
+.proxy-settings__allow-user {
+		font-weight: bold;
+		line-height: 1.2;
+		text-align: center;
+}
 
+.hr-proxy-settings {
+		margin: 10px 0 30px 0;
+		color: #000;
+}
 
+.clearfix {
+	  clear: both;
+	  margin-bottom: 20px;
+}
 
+.proxy-settings__name-group {
+		padding: 5px 0 15px 0;
+}
 
+.proxy-settings__name {
+		font-size: 15px;
+		padding-bottom: 20px;
+}
 
+.proxy-settings__select-group,
+.proxy-settings__checkbox-group,
+.form-control {
+		margin-bottom: 15px;
+}
 
+input[type=checkbox] {
+		margin: 15px 33px 20px 33px;
+}
 
+.hr-corp-proud-provider {
+		margin: 15px 0 20px 0;
+		color: #000;
+}
 
+.corp-proud-provider__padding-block {
+		padding-left: 15px;
+}
 
-
-
-
+.corp-proud-provider__organization {
+		margin: 10px 0 15px 0;
+}
 
 
 

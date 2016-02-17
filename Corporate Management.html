@@ -13,7 +13,6 @@
 </head>
 <body>
 
-
     <nav class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
@@ -56,29 +55,28 @@
         </div>
     </nav>
 
-    <div class="container">
-      <div class="content">
-           <h4 class="content__header">Corporate Management</h4>
-        <div class="branding">
-          <div class="branding__left">
+<div class="container">
+    <h4 class="content-header">Corporate Management</h4>  
+    <div class="branding">
+        <div class="branding-left">
            <div class="branding-item-left">
            <p class="branding-item-left__head pull-left">Branding</p>
            <button class="btn btn-default pull-left branding-item-left__btn" type="button">nCryptedCloud</button>
            </div>
-          </div>
+        </div>
 
-          <div class="branding__right">
+        <div class="branding-right">
            <div class="branding-btn-right">
            <button type="button" class="btn btn-default pull-right branding-btn__right">Create new</button>
            <button type="button" class="btn btn-default pull-right branding-btn__right">Default</button>
            <button type="button" class="btn btn-default pull-right branding-btn__right">Remove</button>
            </div>
-          </div>
-        
         </div>
+    </div>   
+</div>
 
-        <hr class="hr-branding">
-
+<div class="container">
+    <hr class="hr-branding">
         <div class="branding__text">
             <p> Upload your company's logo. Recommended maximum dimensions 200x25 and PNG format with a transparent background. </p>
         </div>
@@ -92,21 +90,79 @@
             <img class="branding-logo__img" src="http://mindforadventure.com/wp-content/uploads/2015/05/lundhags.png" alt="White color image">
           </div>
         </div>
-
-        <div class="colors">
-            <p class="colors__head">Colors</p>
-        </div>
-
+ </div>    
+      
+<div class="container">
+    <div class="colors">
+        <p class="colors__head">Colors</p>
         <hr class="hr-colors">
-
         <div class="colors__text">
-                 <p> Select your company's primary brand color (you can set HEX color in colorpicker) </p>
+            <p> Select your company's primary brand color (you can set HEX color in colorpicker) </p>
         </div>
-            <div class="colors-brand-colors">
-                <input class="colors__picker" type="color" value="#0072ba">    
-                <p class="colors_value"> #0072ba </p>   
-           </div>
+        <div class="colors-brand-colors">
+            <input class="colors__picker" type="color" value="#0072ba">    
+            <p class="colors__value"> #0072ba </p>   
+       </div>
     </div>
+</div>
+
+<div class="container">
+    <div class="proxy-settings">
+        <div class="proxy-settings__headering">
+            <p class="proxy-settings__head pull-left"> Proxy settings </p>
+            <p class="proxy-settings__allow-user pull-right"> Allow user <br> override </p>
+        </div>
+        <hr class="hr-proxy-settings clearfix">
+        <div class="proxy-settings-values">
+            <form class="proxy-settings-form">
+                <div class="form-group">
+                    <div class="col-md-9 proxy-settings__name-group">
+                        <p class="proxy-settings__name"> Proxy settings </p>
+                        <p class="proxy-settings__name" class="proxy-settings__name"> Type </p>
+                        <p class="proxy-settings__name"> Port </p>
+                    </div>
+                    <div class="col-md-2 proxy-settings__select-group">
+                        <select class="form-control">
+                            <option>Auto-detect</option>
+                        </select>
+                        <select class="form-control">
+                            <option>HTTP</option>
+                        </select>
+                        <input class="form-control" type="text" placeholder="8080">
+                    </div>
+                    <div class="col-md-1 proxy-settings__checkbox-group">
+                        <input class="proxy-settings__checkbox" type="checkbox" checked="checked">
+                        <input class="proxy-settings__checkbox" type="checkbox" checked="checked">
+                        <input class="proxy-settings__checkbox" type="checkbox" checked="checked">
+                    </div>
+                </div>
+            </form>
+         </div>
+    </div>
+</div>
+
+ <div class="container">
+    <div class="corporate-proud-provider">
+        <div class="corp-proud-provider__headering">
+            <p class="corp-proud-provider__head"> Corporate Cloud Provider </p>
+        </div>
+        <hr class="hr-corp-proud-provider">  
+        <div class="corp-proud-provider__padding-block">
+            <div class="corp-proud-provider__text">
+                <p> Choose the default cloud provider for your organization </p>
+            </div>
+            <select class="corp-proud-provider__organization">>
+                <option>nCryptedCloud</option>
+            </select>
+            <div class="corp-proud-provider__team">
+                <p><b> Team member access: </b> Disabled <a href="#"> Link </a></p>
+                <p><b> Team management access: </b> Disabled </p>
+                <p> (requires team member access) </p>
+            </div>
+        </div>
+    </div>
+</div>
+
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
