@@ -1,0 +1,65 @@
+@import '../../blocks/require-tou/require-tou.css';
+@import '../../blocks/show-tou/show-tou.css';
+@import '../../blocks/show-tou__active-toolbar/show-tou__active-toolbar.css';
+@import '../../blocks/tou-group/tou-group.css';
+
+.glyphicon {
+    color: #fff;
+}
+
+.lead {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #1052A6;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link,
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link:focus,
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link:hover {
+    background: #0082d3; 
+}
+
+.navbar-nav__item:hover,
+.navbar-right__item:hover {
+    background: #0082d3;
+}
+
+.page-headering {
+		font-weight: bold;
+}
+
+.page-headering__hr,
+.tou__hr {
+		margin-top: 15px;
+}
+
+.content-center {
+		margin: 0 5%;
+}
+
+.tou__title {
+		font-weight: bold;
+		color: #2274B1;
+		padding-top: 10px;
+}
+
+.current-version {
+		margin-top: 55px;
+		line-height: 2;
+}
+
+.current-version__title  {
+		font-weight: bold;
+		padding-top: 10px;
+}
+
+.content-footer__hr {
+		margin: 35px 0 30px 0;
+		border-top: 1px solid #ECEDEC;
+}
+

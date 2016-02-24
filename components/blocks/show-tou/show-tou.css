@@ -1,0 +1,18 @@
+
+.show-tou__title {
+    font-weight: bold;
+    margin-right: 22px; 
+}
+
+.show-tou__checkbox {
+    margin-left: 22px;
+}
+
+.show-tou {
+    margin: 33px 0 55px 0;
+}
+
+.show-tou__title,
+.show-tou__checkbox {
+    display: inline-block;
+}

@@ -1,0 +1,17 @@
+.show-tou__active-toolbar {
+     display: inline-block;
+}
+
+.show-tou__active-toolbar input[type="radio"] {
+    display: none; 
+}
+
+.active-item {
+    padding: 0 5px; 
+    font-weight: normal;
+}
+
+.show-tou__active-toolbar input[type="radio"]:checked + .active-item {
+    background-color: #e6eeff;
+    border-radius: 20px;
+}

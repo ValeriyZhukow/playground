@@ -1,0 +1,22 @@
+.require-tou {
+    margin-top: 35px;
+}
+
+.zzz {
+    color: red;
+}
+
+.require-tou__title {
+    font-weight: bold;
+    margin-right: 22px; 
+}
+
+.require-tou__checkbox {
+    margin-left: 22px;
+}
+
+.require-tou__title,
+.require-tou__switcher,
+.require-tou__checkbox {
+    display: inline-block;
+}

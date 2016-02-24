@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>multi-tou</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="components/multi-tou/css/bootstrap.css" rel="stylesheet">
+    <link href="components/multi-tou/css/bootstrap-switch.css" rel="stylesheet">
+    <link href="components/multi-tou/css/multi-tou.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button"  data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.edomain.com/"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="navbar-nav__item">
+                        <a class="navbar-nav__link lead"
+                        href="https://www.domain.com/notifications/#/notifications/rk/"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Notifications">
+                            <span class="glyphicon glyphicon-bell"></span></a>
+                    </li>
+                    <li class="navbar-nav__item active">
+                        <a class="navbar-nav__link lead"
+                        href="https://www.domain.com/collaborations/ manage_collaborations/#!/swm/active"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Collaboration_management">
+                            <span class="glyphicon glyphicon-user"></span></a>
+                    </li>
+                    <li class="navbar-nav__item">
+                        <a class="navbar-nav__link lead"
+                        href="https://www.domain.com/cloudwebportal/onedrive_1/#!/"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Cloud Providers">
+                            <span class="glyphicon glyphicon-cloud"></span></a>
+                    </li>
+                    <li class="navbar-nav__item">
+                        <a class="navbar-nav__link lead"
+                        href="https://www.domain.com/auditing/#/history"
+                        data-toggle="tooltip"
+                        data-placement="bottom" 
+                        title="Auditing">
+                            <span class="glyphicon glyphicon-tasks"></span></a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="navbar-right__item">
+                        <a class="navbar-right__link lead"
+                        href="https://www.edomain.com/" 
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Back to Some Domain Homepage">
+                            <span class="glyphicon glyphicon-log-out"></span></a>
+                    </li>
+                    <li class="navbar-right__item">
+                        <a class="navbar-right__link" href="https://www.domain.com/cloudwebportal/help/">
+                            <span class="glyphicon glyphicon-list-alt">Help</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        
+    <div class="container">
+        <h1 class="page-headering">Multiple Terms of Use</h1>
+        <hr class="page-headering__hr">
+    
+        <div class="content-center">    
+            <div class="row tou">
+                <div class="col-md-6 col-sm-6 col-xs-3 tou__title">Terms of Use</div>
+                <div class="col-md-6 col-sm-6 ol-xs-3 text-right">
+                    <button class="btn btn-success tou__btn">Create New</button>
+                </div>
+            </div>
+            <hr class="tou__hr">
+
+            <div class="require-tou">
+                <div class="require-tou__title">Require Terms of Use</div>
+                <div class="require-tou__switcher">
+                    <input type="checkbox" 
+                           class="switcher" 
+                           data-off-color="danger">
+                </div>
+                <div class="require-tou__checkbox">
+                    <input type="checkbox" name="" checked="checked"> Allow override
+                </div>
+            </div>
+
+            <div class="show-tou">
+                <div class="show-tou__title">Show Terms of Use</div>
+                <div class="show-tou__active-toolbar">   
+                    <input type="radio" id="radio1" name="radios" value="" checked>
+                    <label class="active-item" for="radio1">Only once</label>
+                    <input type="radio" id="radio2" name="radios" value="">
+                    <label class="active-item" for="radio2">Every time</label>
+                </div>
+                <div class="show-tou__checkbox">
+                    <input type="checkbox" name="" checked="checked"> Allow override
+                </div>
+            </div>
+
+            <div class="tou-group">
+                <button type="button" class="btn btn-default toug__dropdown-btn">TOUGroup1
+                    <span class="caret"></span>
+                </button>
+                    <div class="toug__content">
+                        <input type="checkbox" name="" checked="checked" disabled> Use a default
+                        <a href="#" class="toug__content_link">Add recipient domains</a>
+                    </div>
+            </div>
+
+            <div class="row current-version">
+                <div class="col-md-8 col-sm-8 col-xs-10 current-version__title text-left">Current version</div>
+                <div class="col-md-4 col-sm-4 ol-xs-6 text-right text-right">
+                    <button class="btn btn-default current-version__btn">Create New version</button>
+                </div>
+                <div class="col-md-8 col-sm-8 ol-xs-8">#1 17 February Alexander Doroshenko (alexander.doroshenko@ncryptedcloud.com)</div>
+                <a class="col-md-8 col-sm-6 ol-xs-" href="#">Show previous versions</a> 
+            </div>
+
+            <div class="row content-footer">
+                <div class="col-md-12 content-footer__hr"></div>
+                <div class="col-md-12 text-right content-footer__btn">
+                    <button class="btn btn-success disabled">Save all changes</button>
+                </div>
+            </div>            
+        </div>
+    </div>
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.js"></script>
+        <script src="test-app.module.js"></script>
+        <script src="components/multi-tou/js/bootstrap-switch.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+            $(".switcher").bootstrapSwitch();
+        </script>
+        
+    </body>
+    </html>

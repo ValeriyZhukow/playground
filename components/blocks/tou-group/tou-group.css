@@ -1,0 +1,24 @@
+
+.tou-group {
+        margin-left: -12px;
+}
+
+.toug__dropdown-btn + .toug__content {
+    border-top: solid 1px #ECEDEC;
+    padding-top: 45px;
+    margin-top: -20px;
+}
+
+.toug__dropdown-btn {
+      border: none;
+      font-weight: 500;
+      font-size: 18px;
+}
+
+.toug__content {
+        padding: 30px 0 0 9px;
+}
+
+.toug__content_link {
+        margin-left: 55px;
+}
