@@ -1,0 +1,94 @@
+.glyphicon {
+    color: #fff;
+}
+
+.lead {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+		margin-bottom: 0;
+    background: #0E68B5;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link,
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link:focus,
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link:hover {
+    background: #0082d3; 
+}
+
+.navbar-nav__item:hover,
+.navbar-right__item:hover {
+    background: #0082d3;
+}
+
+.page-headering {
+		font-size: 22px;
+		font-weight: 400;
+}
+
+.page-block {
+		min-height: 600px;
+		border: 1px solid #C0C1C0;
+		border-radius: 10px;
+}
+
+.aside {
+		width: 20%;
+		min-height: 600px;
+		background: #E4E4E4;
+}
+
+.content {
+		margin: 0 5% 0 24%;
+}
+
+.nt-domains__title,
+.email-domains__title,
+.custom-domains__title {
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 50px;
+		margin-bottom: 20px;
+}
+
+.nt-domains__item:nth-child(n+2) {
+ 	 	border-top: 1px solid #C1C2C2;
+		margin-top: 15px;
+		padding-top: 15px; 
+}
+
+.nt-domains__item,
+.email-domains__item,
+.custom-domains__item {	
+		font-weight: bold;
+		font-size: 15px;
+}
+
+.nt-domains__sub-item {
+		font-size: 12px;
+		font-weight: normal;
+}
+
+.switcher {
+		margin-top: -30px;
+}
+
+.email-domains__item {
+		margin-bottom: 10px;
+}
+
+.email-domains_sub-item {
+		font-style: italic;
+		font-weight: normal;
+		font-size: 12px;
+}
+
+.custom-domains {
+		margin-bottom: 35px;
+}
+
+
