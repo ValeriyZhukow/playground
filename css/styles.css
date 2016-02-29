@@ -129,3 +129,107 @@
 }
 
 
+
+.tou__title {
+		font-weight: bold;
+		color: #2274B1;
+		padding-top: 10px;
+}
+
+.require-tou {
+    margin-top: 35px;
+}
+
+.require-tou__title {
+    font-weight: bold;
+    margin-right: 22px; 
+}
+
+.require-tou__checkbox {
+    margin-left: 22px;
+}
+
+.require-tou__title,
+.require-tou__switcher,
+.require-tou__checkbox {
+    display: inline-block;
+}
+
+.show-tou__title {
+    font-weight: bold;
+    margin-right: 22px; 
+}
+
+.show-tou__checkbox {
+    margin-left: 22px;
+}
+
+.show-tou {
+    margin: 33px 0 55px 0;
+}
+
+.show-tou__title,
+.show-tou__checkbox {
+    display: inline-block;
+}
+
+.show-tou__active-toolbar {
+     display: inline-block;
+}
+
+.show-tou__active-toolbar input[type="radio"] {
+    display: none; 
+}
+
+.active-item {
+    padding: 0 5px; 
+    font-weight: normal;
+}
+
+.show-tou__active-toolbar input[type="radio"]:checked + .active-item {
+    background-color: #e6eeff;
+    border-radius: 20px;
+}
+
+.tou-group {
+        margin-left: -12px;
+}
+
+.toug__dropdown-btn + .toug__content {
+    border-top: solid 1px #ECEDEC;
+    padding-top: 45px;
+    margin-top: -20px;
+}
+
+.toug__dropdown-btn {
+      border: none;
+      font-weight: 500;
+      font-size: 18px;
+}
+
+.toug__content {
+        padding: 30px 0 0 9px;
+}
+
+.toug__content_link {
+        margin-left: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

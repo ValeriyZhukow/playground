@@ -94,7 +94,50 @@
                 </div>
                 <div class="col-md-10 col-sm-10 col-xs-10 content">
                     <div class="content-inside">
-                     <!-- content -->        
+                 
+                        <div class="row tou">
+                            <div class="col-md-6 col-sm-6 col-xs-3 tou__title">Terms of Use</div>
+                            <div class="col-md-6 col-sm-6 ol-xs-3 text-right">
+                                <button class="btn btn-success tou__btn">Create New</button>
+                            </div>
+                        </div>
+                        <hr class="tou__hr">
+
+                        <div class="require-tou">
+                            <div class="require-tou__title">Require Terms of Use</div>
+                            <div class="require-tou__switcher">
+                                <input type="checkbox" 
+                                class="switcher" 
+                                data-off-color="danger">
+                            </div>
+                            <div class="require-tou__checkbox">
+                                <input type="checkbox" name="" checked="checked"> Allow override
+                            </div>
+                        </div>
+
+                        <div class="show-tou">
+                            <div class="show-tou__title">Show Terms of Use</div>
+                            <div class="show-tou__active-toolbar">   
+                                <input type="radio" id="radio1" name="radios" value="" checked>
+                                <label class="active-item" for="radio1">Only once</label>
+                                <input type="radio" id="radio2" name="radios" value="">
+                                <label class="active-item" for="radio2">Every time</label>
+                            </div>
+                            <div class="show-tou__checkbox">
+                                <input type="checkbox" name="" checked="checked"> Allow override
+                            </div>
+                        </div>
+
+                        <div class="tou-group">
+                            <button type="button" class="btn btn-default toug__dropdown-btn">TOUGroup1
+                                <span class="caret"></span>
+                            </button>
+                            <div class="toug__content">
+                                <input type="checkbox" name="" checked="checked" disabled> Use a default
+                                <a href="#" class="toug__content_link">Add recipient domains</a>
+                            </div>
+                        </div>      
+
                     </div>
                 </div>        
             </div>
