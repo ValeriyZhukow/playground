@@ -8,7 +8,7 @@
 }
 
 .navbar {
-		margin-bottom: 0;
+	margin-bottom: 0;
     background: #0E68B5;
     border: none;
     border-radius: 0;
@@ -26,23 +26,23 @@
 }
 
 .page-headering {
-		font-size: 22px;
-		font-weight: 400;
+	font-size: 22px;
+	font-weight: 400;
 }
 
 .page-block {
-		min-height: 600px;
-		border: 1px solid #C0C1C0;
-		border-radius: 10px;
-		background: #E3E4E3;
-		overflow: hidden;
+	min-height: 600px;
+	border: 1px solid #C0C1C0;
+	border-radius: 10px;
+	background: #E3E4E3;
+	overflow: hidden;
 }
 
 .aside {
-		width: 20%;
-		min-height: 600px;
-		background: #E3E4E3;
-		padding: 0;
+	width: 20%;
+	min-height: 600px;
+	background: #E3E4E3;
+	padding: 0;
 }
 
 .aside-menu {
@@ -50,25 +50,30 @@
 }
 
 .aside-menu > li + li {
-  	margin-top: 0;
+	margin-top: 0;
 }
 
-.aside-menu__link {
-  background: #EBECEB;
-  border-left: 5px solid #000;
-  border-bottom: 1px solid #DBDDDB;
+.aside-menu__item {
+    background: #EBECEB;
+    border-left: 5px solid #000;
+    border-bottom: 1px solid #DBDDDB;
 }
 
 .aside-menu__item:last-child {
 	border-bottom: 0;
 }
 
+.aside-menu__item_active {
+	background: #FFFFFF;
+    border-left: 5px solid #3B7ADB;
+}
+
 .aside-menu__link {
-  color: #000;
+	color: #000;
 }
 
 .aside-menu__link:hover {
-  color: #1078CF;
+	color: #1078CF;
 }
 
 .content {
@@ -78,5 +83,5 @@
 }
 
 .content-inside {
-		margin: 60px 5%;  
+	margin: 60px 5%;  
 }

@@ -1,8 +1,0 @@
-<div class="form-group">
-    <select class="simple-expire-selector"
-            ng-model="selected"
-            ng-options="option as option.label for option in options"
-            disable-if-option-after="item.policy['max-expiration'].value"
-            options-disabled="option.inactive for option in options">
-    </select>
-</div>

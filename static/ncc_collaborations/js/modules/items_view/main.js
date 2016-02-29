@@ -1,1 +1,0 @@
-angular.module('nccCollaborations.itemsView', ['ui.bootstrap']);
