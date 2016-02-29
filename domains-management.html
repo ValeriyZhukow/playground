@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/css/bootstrap-switch.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
 </head>
@@ -79,7 +80,7 @@
     <div class="container">
         <h1 class="page-headering">nCrypted Cloud, LLC</h1>
             <div class="row-fluid page-block">
-            
+
                 <div class="col-md-2 col-sm-2 col-xs-2 aside">
                     <ul class="nav nav-stacked aside-menu">
                         <li class="aside-menu__item_active">
@@ -197,20 +198,23 @@
                                         <div class="custom-domains__item">crypt.humana.com</div>
                                     </div>  
                                 </div>
-                        </div>         
-                    </div>
+                        </div> 
 
+                    </div>
                 </div>        
             </div>
     </div>
 
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="vendor/js/bootstrap-switch.js"></script>
      <script>
       $(document).ready(function(){
         $('[data-toggle="tooltip"]').tooltip();   
       });
+       $(".switchers").bootstrapSwitch();
   </script>
+
 
 </body>
 </html>
