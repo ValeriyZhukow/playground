@@ -1,0 +1,57 @@
+.glyphicon {
+    color: #fff;
+}
+
+.lead {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+		margin-bottom: 0;
+    background: #0E68B5;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link,
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link:focus,
+.navbar-inverse .navbar-nav > .active > .navbar-nav__link:hover {
+    background: #0082d3; 
+}
+
+.navbar-nav__item:hover,
+.navbar-right__item:hover {
+    background: #0082d3;
+}
+
+.page-headering {
+		font-size: 22px;
+		font-weight: 400;
+}
+
+.page-block {
+		min-height: 600px;
+		border: 1px solid #C0C1C0;
+		border-radius: 10px;
+		background: #E4E4E4;
+		overflow: hidden;
+}
+
+.aside {
+		width: 20%;
+		min-height: 600px;
+		background: #E3E4E3;
+}
+
+.content {
+   	width: 80%;
+   	min-height: 600px; 
+    background: #FFFFFF;
+
+}
+
+.content-inside {
+		margin: 60px 5%;  
+}
+
