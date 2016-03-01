@@ -210,62 +210,58 @@
 
 
 .domains {
-	margin-top: 85px;
+	margin-top: 75px;
 }
 
-.domains-edit__p,
-.domains-done__p {
+.domains-title {
+	font-size: 15px;
 	font-weight: bold;
 }
 
-.domains-edit__a,
-.domains-done__a1 {
+.domains-edit-mode__switch,
+.domains-done-mode__switch {
 	margin-left: 10px;
 	font-weight: normal;
 	cursor: pointer;
 }
 
-.list-inline .domains-edit-list__li,
-.list-inline .domains-done-list__li {
-	font-weight: 500;
+.list-inline .domains-edit-list__item,
+.list-inline .domains-done-list__item {
+	font-weight: bold;
 	border: 1px solid lightgray;
 	border-radius: 20px;
 	margin: 10px 15px 0 0;
 	padding: 0 10px; 
 }
 
-.domains-done-list__li {
+.domains-done-list__item {
 	color: #5289CC;
 }
 
-.domains__span {
-	color: #000;
-}
-
-.domains-done-list__li:hover {
-	cursor: pointer;
+.domains-done-list__item:hover {
 	background: #EE212C;
 	color: #fff;
 }
 
-.domains-done-list__li:hover .domains__span {
+.domains-done-list__item:hover .domains-done-list__close {
 	color: #fff;
 }
 
-.domains-done__input {
+.domains-done-list__close {
+	color: #000;
+}
+
+.domains-done-list__field {
 	padding-left: 10px;
 	margin: 8px 0 0 5px;
-	position: relative;
 }
 
-.domains-done__a2 {
+.domains-done-list__btn {
 	border: 1px solid lightgray;
-	padding: 4px;
+	padding: 1px 6px;
 	color: #000;
 	font-weight: 500;
-	cursor: pointer;
 }
-
 
 
 
