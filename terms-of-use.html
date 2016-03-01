@@ -9,6 +9,10 @@
     <link href="vendor/css/bootstrap-switch.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 
+    <style<
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+    </style>
 </head>
 <body>
 
@@ -77,8 +81,9 @@
         </div>
     </nav>
 
-     <div class="container">
+    <div class="container">
         <h1 class="page-headering">nCrypted Cloud, LLC</h1>
+
             <div class="row-fluid page-block">
                 <div class="col-md-2 col-sm-2 col-xs-2 aside">
                     <ul class="nav nav-stacked aside-menu">
@@ -97,8 +102,7 @@
                     <div class="content-inside">
 
                         <div class="terms-of-use">
-                            <div class="tou__title">Terms of Use</div>
-                         
+                            <div class="tou__title">Terms of Use</div>     
                                 <div class="require-tou">
                                     <div class="require-tou__title">Require Terms of Use</div>
                                         <div class="require-tou__switcher">
@@ -133,16 +137,51 @@
                                         <a href="#" class="toug__content_link">Add recipient domains</a>
                                     </div>
                                 </div>  
-                        </div>    
+                        </div>  
 
-                    </div>
-                </div>        
+                        <div class="domains" ng-app="testApp">
+                            <div class="domains-list" ng-controller="testController" ng-cloak>
+
+                                <div class="domains-edit-mode">
+                                    <div ng-show="!editMode">
+                                        <p class="domains-edit__p">Domains<a class="domains-edit__a" href="" ng-click="editMode = true;">Edit</a></p> 
+                                            <div class="domains-edit-list">
+                                                <ul class="list-inline">
+                                                    <li class="domains-edit-list__li" ng-repeat="(idx, domain) in domains">{{domain}}</li>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="domains-done-mode">
+                                    <div ng-show="editMode">
+                                        <p class="domains-done__p">Domains<a class="domains-done__a1" href="" ng-click="editMode = false;">Done</a></p>
+                                            <div class="domains-done-list">
+                                                <ul class="list-inline">
+                                                    <li class="domains-done-list__li pull-left" ng-repeat="(idx, domain) in domains" ng-click="remove(idx)">{{domain}} <span class="domains__span">×</span></li>   
+                                                    <div class="pull-left">
+                                                        <input class="domains-done__input" type="text" placeholder="Add domain" ng-model="newDomain"/>
+                                                        <a class="domains-done__a2" ng-click="add()">Add</a>
+                                                    </div>
+                                                </ul>
+                                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>        
+                </div>
+
             </div>
     </div>
 
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/bootstrap.min.js"></script>
     <script src="vendor/js/bootstrap-switch.js"></script>
+    <script src="vendor/js/angular.js"></script>
+    <script src="vendor//js/test-app.module.js"></script>
     <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();   
