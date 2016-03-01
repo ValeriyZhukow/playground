@@ -270,7 +270,7 @@
 	float: left; /* Сделал не через display: inline-block; из-за лучшего отображения) */
 	width: 30%;
 	height: 180px;
-	margin: 2% 3% 2% 0;
+	margin: 2% 3.3% 2% 0;
 	text-align: center;
 	vertical-align: top;
 	border: 1px solid #E6E6E6;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>some-pages-task</title>
+    <title>Terms of Use</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -98,20 +98,19 @@
                         </li>
                     </ul> 
                 </div>
+
                 <div class="col-md-10 col-sm-10 col-xs-10 content">
                     <div class="content-inside">
 
                         <div class="terms-of-use">
-                            <div class="tou__title">Terms of Use</div>     
+                            <h2 class="tou__title">Terms of Use</h2>     
                                 <div class="require-tou">
                                     <div class="require-tou__title">Require Terms of Use</div>
                                         <div class="require-tou__switcher">
-                                            <input type="checkbox" 
-                                            class="switchers" 
-                                            data-off-color="danger">
+                                            <input type="checkbox" class="switchers" data-off-color="danger">
                                         </div>
                                         <div class="require-tou__checkbox">
-                                            <input type="checkbox" name="" checked="checked"> Allow override
+                                            <input type="checkbox" checked="checked"><span> Allow override</span>
                                         </div>
                                 </div>
 
@@ -124,16 +123,16 @@
                                             <label class="active-item" for="radio2">Every time</label>
                                         </div>
                                         <div class="show-tou__checkbox">
-                                            <input type="checkbox" name="" checked="checked"> Allow override
+                                            <input type="checkbox" checked="checked"><span> Allow override</span>
                                         </div>
                                 </div>
 
                                 <div class="tou-group">
-                                    <button type="button" class="btn btn-default toug__dropdown-btn">TOUGroup1
+                                    <button type="button" class="btn btn-default toug__dropdown-btn"><span>TOUGroup1</span>
                                         <span class="caret"></span>
                                     </button>
                                     <div class="toug__content">
-                                        <input type="checkbox" name="" checked="checked" disabled> Use a default
+                                        <input type="checkbox" name="" checked="checked" disabled><span> Use a default</span>
                                         <a href="#" class="toug__content_link">Add recipient domains</a>
                                     </div>
                                 </div>  
@@ -141,7 +140,6 @@
 
                         <div class="domains" ng-app="testApp">
                             <div class="domains-content" ng-controller="testController" ng-cloak>
-
                                 <div class="domains-edit-mode">
                                     <div ng-show="!editMode">
                                         <h5 class="domains-title">Domains<a class="domains-edit-mode__switch" ng-click="editMode = true;">Edit</a></h5> 
