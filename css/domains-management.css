@@ -1,0 +1,42 @@
+@import 'styles.css';
+
+.nt-domains__title,
+.email-domains__title,
+.custom-domains__title {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 60px 0 25px 0;
+}
+
+.nt-domains__list {
+	overflow: auto;
+ 	border-bottom: 1px solid #C1C2C2; 
+}
+
+.nt-domains__list:last-child {
+	 border-bottom: 0;
+}
+
+.nt-domains__item,
+.email-domains__item,
+.custom-domains__item {	
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.nt-domains__sub-item {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.nt-domains-switchers {
+	margin-top: 20px;
+}
+
+.email-domains_sub-item {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+}

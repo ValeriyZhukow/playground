@@ -1,0 +1,139 @@
+@import 'styles.css';
+
+.tou__title {
+		font-size: 18px;
+		font-weight: bold;
+		margin: 60px 0 25px 0;
+}
+
+.require-tou {
+    margin-top: 45px;
+}
+
+.require-tou__title {
+    font-weight: bold;
+    margin-right: 22px; 
+}
+
+.require-tou__checkbox {
+    margin-left: 22px;
+}
+
+.require-tou__title,
+.require-tou__switcher,
+.require-tou__checkbox {
+    display: inline-block;
+}
+
+.show-tou__title {
+    font-weight: bold;
+    margin-right: 22px; 
+}
+
+.show-tou__checkbox {
+    margin-left: 22px;
+}
+
+.show-tou {
+		margin: 33px 0 55px 0;
+}
+
+.show-tou__title,
+.show-tou__checkbox,
+.show-tou__active-toolbar {
+    display: inline-block;
+}
+
+.show-tou__active-toolbar input[type="radio"] {
+    display: none; 
+}
+
+.show-tou__active-toolbar .active-item {
+    padding: 0 5px; 
+    font-weight: normal;
+}
+
+.show-tou__active-toolbar input[type="radio"]:checked + .active-item {
+    background-color: #e6eeff;
+    border-radius: 20px;
+}
+
+.tou-group {
+    margin-left: -12px;
+}
+
+.toug__dropdown-btn + .toug__content {
+    border-top: solid 1px #ECEDEC;
+    padding-top: 45px;
+    margin-top: -20px;
+}
+
+.toug__dropdown-btn {
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.toug__content {
+    padding: 30px 0 0 9px;
+}
+
+.toug__content_link {
+    margin-left: 55px;
+}
+
+
+.domains {
+		margin-top: 75px;
+		margin-bottom: 25px;
+}
+
+.domains-title {
+		font-size: 15px;
+		font-weight: bold;
+}
+
+.domains-edit-mode__switch,
+.domains-done-mode__switch {
+		margin-left: 10px;
+		font-weight: normal;
+		cursor: pointer;
+}
+
+.list-inline .domains-edit-list__item,
+.list-inline .domains-done-list__item {
+		font-weight: bold;
+		border: 1px solid lightgray;
+		border-radius: 20px;
+		margin: 10px 15px 5px 0;
+		padding: 0 10px; 
+}
+
+.domains-done-list__item {
+		color: #5289CC;
+}
+
+.domains-done-list__item:hover {
+		background: #EE212C;
+		color: #fff;
+}
+
+.domains-done-list__item:hover .domains-done-list__close {
+		color: #fff;
+}
+
+.domains-done-list__close {
+		color: #000;
+}
+
+.domains-done-list__field {
+		padding-left: 10px;
+		margin: 8px 0 0 0;
+}
+
+.domains-done-list__btn {
+		border: 1px solid lightgray;
+		padding: 1px 6px;
+		color: #000;
+		font-weight: 500;
+}
