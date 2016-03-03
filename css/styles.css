@@ -1,3 +1,4 @@
+
 .glyphicon {
     color: #fff;
 }
@@ -71,10 +72,6 @@
 
 .aside-menu__link {
 	color: #000;
-}
-
-.aside-menu__link:hover {
-	color: #1078CF;
 }
 
 .content {

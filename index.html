@@ -4,7 +4,8 @@
     <title>some-pages-task</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet" media="all">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -17,9 +18,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="https://www.edomain.com/"></a>
+                <a class="navbar-brand" href="https://www.edomain.com/">
+                    <img src="https://yt3.ggpht.com/-ZOY3TKelLe0/AAAAAAAAAAI/AAAAAAAAAAA/xCr6AsqApe8/s100-c-k-no/photo.jpg"
+                         style="width: 40px; height: 40px; margin-top: -10px;"></a>
             </div>
-
+            
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li class="navbar-nav__item">
@@ -28,23 +31,32 @@
                            data-toggle="tooltip"
                            data-placement="bottom"
                            title="Notifications">
-                            <span class="glyphicon glyphicon-bell"></span></a>
+                            <span class="glyphicon glyphicon-bell text-center">
+                                <span style="font-size: 12px; margin-left: -15px;">Notifications</span>
+                            </span>
+                        </a>
                     </li>
                     <li class="navbar-nav__item active">
                         <a class="navbar-nav__link lead"
                            href="https://www.domain.com/collaborations/ manage_collaborations/#!/swm/active"
                            data-toggle="tooltip"
                            data-placement="bottom"
-                           title="Collaboration_management">
-                            <span class="glyphicon glyphicon-user"></span></a>
+                           title="Collaboration-management">
+                            <span class="glyphicon glyphicon-user text-center">
+                                <span style="font-size: 12px; margin-left: -15px;">Collaboration-management</span>
+                            </span>
+                        </a>
                     </li>
                     <li class="navbar-nav__item">
                         <a class="navbar-nav__link lead"
                            href="https://www.domain.com/cloudwebportal/onedrive_1/#!/"
                            data-toggle="tooltip"
                            data-placement="bottom"
-                           title="Cloud Providers">
-                            <span class="glyphicon glyphicon-cloud"></span></a>
+                           title="Cloud-Providers">
+                            <span class="glyphicon glyphicon-cloud text-center">
+                                <span style="font-size: 12px; margin-left: -15px;">Cloud-Providers</span>
+                            </span>
+                        </a>
                     </li>
                     <li class="navbar-nav__item">
                         <a class="navbar-nav__link lead"
@@ -52,10 +64,13 @@
                            data-toggle="tooltip"
                            data-placement="bottom" 
                            title="Auditing">
-                            <span class="glyphicon glyphicon-tasks"></span></a>
+                            <span class="glyphicon glyphicon-tasks text-center">
+                               <span style="font-size: 12px; margin-left: -15px;">Auditing</span>
+                            </span>
+                        </a>
                     </li>
                 </ul>
-
+                                
                 <ul class="nav navbar-nav navbar-right">
                     <li class="navbar-right__item">
                         <a class="navbar-right__link lead"
@@ -63,11 +78,13 @@
                            data-toggle="tooltip"
                            data-placement="bottom"
                            title="Back to Some Domain Homepage">
-                            <span class="glyphicon glyphicon-log-out"></span></a>
+                            <span class="glyphicon glyphicon-log-out"></span>
+                        </a>
                     </li>
                     <li class="navbar-right__item">
                         <a class="navbar-right__link" href="https://www.domain.com/cloudwebportal/help/">
-                            <span class="glyphicon glyphicon-list-alt">Help</span></a>
+                            <span class="glyphicon glyphicon-list-alt">Help</span>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -80,13 +97,13 @@
                 <div class="col-md-2 col-sm-2 col-xs-2 aside">
                     <ul class="nav nav-stacked aside-menu">
                         <li class="aside-menu__item">
-                            <a class="aside-menu__link" href="domains-management.html">Domains management</a>
+                            <a class="aside-menu__link hvr-bounce-to-right" href="domains-management.html">Domains management</a>
                         </li>
                         <li class="aside-menu__item">
-                            <a class="aside-menu__link" href="terms-of-use.html">Terms of Use</a>
+                            <a class="aside-menu__link hvr-bounce-to-right" href="terms-of-use.html">Terms of Use</a>
                         </li>
                         <li class="aside-menu__item">
-                            <a class="aside-menu__link" href="corporate-branding.html">Corporate Branding</a>
+                            <a class="aside-menu__link hvr-bounce-to-right" href="corporate-branding.html">Corporate Branding</a>
                         </li>
                     </ul>       
                 </div>
@@ -98,13 +115,12 @@
             </div>
     </div>
 
-    <script src="vendor/js/jquery.min.js"></script>
-    <script src="vendor/js/bootstrap.min.js"></script>
+    <script src="../vendor/js/jquery.min.js"></script>
+    <script src="../vendor/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();   
         });
     </script>
-
 </body>
 </html>
